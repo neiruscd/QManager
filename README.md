@@ -28,3 +28,8 @@
 **QManager** — **менеджер модифицированных приложений и не только. Разработанный полностью на Tasker**
 
 * Релизные и пре-релизные сборки находятся в [Releases](https://github.com/neiruscd/qmanager/releases)
+
+## Помощь в разработке
+
+Приложение создано на [Tasker](https://www.mediafire.com/file/qw4r3duu7nyrrig/Tasker.6.1.32.apk/file), xml со сценами и прочим, прикреплён к каждому обновлению QManager в [Releases](https://github.com/neiruscd/qmanager/releases)
+Скачать последний [xml file](https://github.com/neiruscd/QManager/blob/main/QManager.prj.xml)
