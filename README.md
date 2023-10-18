@@ -20,7 +20,7 @@
     <a href="https://github.com/neiruscd/QManager/network/members">
         <img src="https://img.shields.io/github/forks/neiruscd/QManager?style=flat-square"/>
     </a>
-    <a href="https://github.com/QManager/stargazers">
+    <a href="https://github.com/neiruscd/QManager/stargazers">
         <img src="https://img.shields.io/github/stars/neiruscd/QManager?style=flat-square"/>
     </a>
 </p>
