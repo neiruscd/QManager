@@ -3,15 +3,15 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1695297877566</cdate>
 		<name>QManager</name>
-		<scenes>Музыка,Debug Menu,Загрузка,Развлечения,Развлечения 2,Новая версия!,Утилиты,Карты,VPN,Банки,О приложении,Категории,Статья,Download Process,website,Мессенджеры,Кино,Маркеты,Оплата,Что изменилось?,Интерактивная Карта</scenes>
-		<tids>122,30,56,41,31,13,67,77,4,115,89,47,75,62,94,33,10,71,133,148,147,116,82,119,93,87,74,120,92,90,49,28,88,81,59,66,32,83,38,34,79,36,68,70,65,86,45,16,58,69,51,78,53,48,84,60,57,44,9,35,80,117,3,50,96,144,39,46,95,64,149,145,72,37,54,63,52,140,85,55,42,73,40,91,61,43,76,151,97,2,23</tids>
+		<scenes>О приложении,Загрузка,Новая версия!,Музыка,Карты,Кино,Debug Menu,Маркеты,Развлечения 2,VPN,Мессенджеры,Утилиты,Банки,Download Process,Развлечения,Статья,Категории,Что изменилось?,Оплата,Интерактивная Карта</scenes>
+		<tids>55,50,51,115,90,91,148,30,77,69,144,70,98,120,23,68,63,87,58,59,13,10,54,57,32,53,34,117,88,4,92,42,56,46,41,62,82,149,40,48,76,35,94,36,9,95,80,28,65,140,93,60,52,38,145,44,116,47,122,147,43,74,39,72,85,81,66,119,61,89,71,78,31,16,64,49,86,75,83,79,96,73,37,3,67,84,133,33,151,2,45,97</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/vr.png</fle>
 		</Img>
 	</Project>
 	<Scene sr="sceneDebug Menu">
 		<cdate>1696860318923</cdate>
-		<edate>1697629203898</edate>
+		<edate>1697633854823</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Debug Menu</nme>
@@ -487,27 +487,6 @@
 			<Img sr="arg6" ve="2"/>
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
-	</Scene>
-	<Scene sr="scenewebsite">
-		<cdate>1697628828850</cdate>
-		<edate>1697629086988</edate>
-		<heightLand>-1</heightLand>
-		<heightPort>1991</heightPort>
-		<nme>website</nme>
-		<widthLand>-1</widthLand>
-		<widthPort>1032</widthPort>
-		<WebElement sr="elements0" ve="2">
-			<flags>4</flags>
-			<geom>0,0,1031,1990,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">WebView1</Str>
-			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">http://%3Chtml%20class%3D%22vkui%22%3E%20%3Chead%3E%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2Cinitial-scale%3D1%2Cshrink-to-fit%3Dno%2Cuser-scalable%3Dno%2Cviewport-fit%3Dcover%22%3E%20%20%3Cmeta%20name%3D%22theme-color%22%20content%3D%22/#19191a%22%3E%20%20%3Clink%20rel=%22icon%22%20type=%22image/png%22%20href=%22data:image/png;base64,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</Str>
-			<Int sr="arg3" val="1"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-		</WebElement>
 	</Scene>
 	<Scene sr="sceneБанки">
 		<cdate>1695297890544</cdate>
@@ -1296,7 +1275,7 @@
 	</Scene>
 	<Scene sr="sceneКатегории">
 		<cdate>1695297890544</cdate>
-		<edate>1697628726069</edate>
+		<edate>1697669103149</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Категории</nme>
@@ -1319,8 +1298,8 @@
 			<geom>27,250,1024,800,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle13</Str>
 			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">#FF72B7AC</Str>
-			<Str sr="arg3" ve="3">#FFC8FFCB</Str>
+			<Str sr="arg2" ve="3">#FF8BD9FF</Str>
+			<Str sr="arg3" ve="3">#FF878787</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="30"/>
@@ -1647,7 +1626,7 @@
 			<flags>4</flags>
 			<geom>0,150,1079,75,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Name Version</Str>
-			<Str sr="arg1" ve="3">Faruzan</Str>
+			<Str sr="arg1" ve="3">Kirara</Str>
 			<Int sr="arg2" val="15"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%my_accent1_700</Str>
@@ -3333,7 +3312,7 @@
 	</Scene>
 	<Scene sr="sceneО приложении">
 		<cdate>1695297890544</cdate>
-		<edate>1697535109581</edate>
+		<edate>1697669079986</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>О приложении</nme>
@@ -3341,7 +3320,7 @@
 		<widthPort>1080</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>402,1900,124,125,-1,-1,-1,-1</geom>
+			<geom>302,1900,124,125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle8</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF5F5F5F</Str>
@@ -3356,8 +3335,8 @@
 			<geom>27,250,1024,1125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle1</Str>
 			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">#FF72B7AC</Str>
-			<Str sr="arg3" ve="3">#FFC8FFCB</Str>
+			<Str sr="arg2" ve="3">#FF8BD9FF</Str>
+			<Str sr="arg3" ve="3">#FF878787</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="30"/>
@@ -3486,7 +3465,7 @@
 		<ImageElement sr="elements19" ve="2">
 			<clickTask>30</clickTask>
 			<flags>4</flags>
-			<geom>427,1925,74,75,-1,-1,-1,-1</geom>
+			<geom>327,1925,74,75,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Image4</Str>
 			<Img sr="arg1" ve="2">
 				<fle>/storage/emulated/0/Download/free-icon-font-telegram.png</fle>
@@ -3495,7 +3474,7 @@
 		</ImageElement>
 		<RectElement sr="elements2">
 			<flags>4</flags>
-			<geom>27,250,1025,1125,-1,-1,-1,-1</geom>
+			<geom>27,250,1025,1100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle1511</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00333333</Str>
@@ -3508,7 +3487,7 @@
 		<ImageElement sr="elements20" ve="2">
 			<clickTask>60</clickTask>
 			<flags>4</flags>
-			<geom>577,1925,74,75,-1,-1,-1,-1</geom>
+			<geom>677,1925,74,75,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Image5</Str>
 			<Img sr="arg1" ve="2">
 				<fle>/storage/emulated/0/Download/credit-card.png</fle>
@@ -3529,6 +3508,28 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
+		<RectElement sr="elements22">
+			<flags>4</flags>
+			<geom>477,1900,124,125,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle82</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF5F5F5F</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements23" ve="2">
+			<clickTask>98</clickTask>
+			<flags>4</flags>
+			<geom>502,1925,74,75,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Image51</Str>
+			<Img sr="arg1" ve="2">
+				<fle>/storage/emulated/0/Download/free-icon-font-github.png</fle>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
 			<geom>0,0,1077,200,-1,-1,-1,-1</geom>
@@ -3546,7 +3547,7 @@
 			<flags>4</flags>
 			<geom>77,750,924,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
-			<Str sr="arg1" ve="3">Версия %app_version_label Faruzan ( Сборка %app_version_code )</Str>
+			<Str sr="arg1" ve="3">Версия %app_version_label Kirara ( Сборка %app_version_code )</Str>
 			<Int sr="arg2" val="18"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -3557,7 +3558,7 @@
 		</TextElement>
 		<RectElement sr="elements5">
 			<flags>4</flags>
-			<geom>552,1900,124,125,-1,-1,-1,-1</geom>
+			<geom>652,1900,124,125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle81</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF5F5F5F</Str>
@@ -3584,7 +3585,7 @@
 			<flags>4</flags>
 			<geom>77,1225,924,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text41</Str>
-			<Str sr="arg1" ve="3">Получить Nightly версию</Str>
+			<Str sr="arg1" ve="3">Получить Pre-Release версию</Str>
 			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FF828282</Str>
@@ -3613,7 +3614,7 @@
 			<longclickTask>149</longclickTask>
 			<Str sr="arg0" ve="3">Image1</Str>
 			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Documents/pixelLab/20231013_112609.png</fle>
+				<fle>/storage/emulated/0/Documents/pixelLab/20231019_013804.png</fle>
 			</Img>
 			<Int sr="arg2" val="227"/>
 			<RectElement sr="background">
@@ -4443,7 +4444,7 @@
 	</Scene>
 	<Scene sr="sceneУтилиты">
 		<cdate>1695297890544</cdate>
-		<edate>1697212714212</edate>
+		<edate>1697670101912</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Утилиты</nme>
@@ -4451,7 +4452,7 @@
 		<widthPort>1080</widthPort>
 		<RectElement sr="elements0">
 			<flags>4</flags>
-			<geom>27,800,1025,375,-1,-1,-1,-1</geom>
+			<geom>27,925,1025,375,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle11</Str>
 			<Int sr="arg1" val="3"/>
 			<Str sr="arg2" ve="3">#FFF0C167</Str>
@@ -4476,20 +4477,20 @@
 		</TextElement>
 		<TextElement sr="elements10" ve="3">
 			<flags>4</flags>
-			<geom>77,975,627,50,-1,-1,-1,-1</geom>
+			<geom>102,1050,949,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text521</Str>
-			<Str sr="arg1" ve="3">3.20.2i</Str>
+			<Str sr="arg1" ve="3">Утилита для Mi Band 7 Pro + 8 Pro с некоторыми дополрительными функциями мода.</Str>
 			<Int sr="arg2" val="11"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
+			<Int sr="arg6" val="5"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<RectElement sr="elements11">
 			<flags>4</flags>
-			<geom>77,1050,649,100,-1,-1,-1,-1</geom>
+			<geom>102,1150,324,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle22</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4502,7 +4503,7 @@
 		<TextElement sr="elements12" ve="3">
 			<clickTask>58</clickTask>
 			<flags>4</flags>
-			<geom>77,1050,649,100,-1,-1,-1,-1</geom>
+			<geom>102,1150,324,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text411</Str>
 			<Str sr="arg1" ve="3">Скачать</Str>
 			<Int sr="arg2" val="12"/>
@@ -4514,20 +4515,22 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<RectElement sr="elements13">
-			<geom>27,1225,1025,400,-1,-1,-1,-1</geom>
+			<flags>4</flags>
+			<geom>27,1350,1025,425,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle111</Str>
 			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">#FFF0AA67</Str>
-			<Str sr="arg3" ve="3">#FF7182FF</Str>
+			<Str sr="arg2" ve="3">#FF6795F0</Str>
+			<Str sr="arg3" ve="3">#FF71FF80</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
 		<TextElement sr="elements14" ve="3">
-			<geom>102,1300,599,100,-1,-1,-1,-1</geom>
+			<flags>4</flags>
+			<geom>102,1425,724,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text511</Str>
-			<Str sr="arg1" ve="3">Mir Pay</Str>
+			<Str sr="arg1" ve="3">Lucky Patcher (Установщик)</Str>
 			<Int sr="arg2" val="18"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -4537,7 +4540,8 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<RectElement sr="elements15">
-			<geom>102,1425,649,100,-1,-1,-1,-1</geom>
+			<flags>4</flags>
+			<geom>102,1625,324,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle221</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4549,7 +4553,8 @@
 		</RectElement>
 		<TextElement sr="elements16" ve="3">
 			<clickTask>59</clickTask>
-			<geom>327,1425,427,100,-1,-1,-1,-1</geom>
+			<flags>4</flags>
+			<geom>102,1625,324,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text4111</Str>
 			<Str sr="arg1" ve="3">Скачать</Str>
 			<Int sr="arg2" val="12"/>
@@ -4586,9 +4591,22 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
+		<TextElement sr="elements19" ve="3">
+			<flags>4</flags>
+			<geom>102,1500,924,125,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text5211</Str>
+			<Str sr="arg1" ve="3">Очень полезная штука с пользовательскими патчами, для взлома покупок в приложениях/играх и т.д. Особенно с ROOT-правами.</Str>
+			<Int sr="arg2" val="11"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
 		<RectElement sr="elements2">
 			<flags>4</flags>
-			<geom>27,250,1025,500,-1,-1,-1,-1</geom>
+			<geom>27,250,1025,625,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle1</Str>
 			<Int sr="arg1" val="3"/>
 			<Str sr="arg2" ve="3">#FF67F069</Str>
@@ -4600,7 +4618,7 @@
 		</RectElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>77,325,549,100,-1,-1,-1,-1</geom>
+			<geom>102,325,549,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
 			<Str sr="arg1" ve="3">Magisk</Str>
 			<Int sr="arg2" val="18"/>
@@ -4613,7 +4631,7 @@
 		</TextElement>
 		<RectElement sr="elements4">
 			<flags>4</flags>
-			<geom>77,500,649,100,-1,-1,-1,-1</geom>
+			<geom>102,600,574,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4625,7 +4643,7 @@
 		</RectElement>
 		<RectElement sr="elements5">
 			<flags>4</flags>
-			<geom>77,625,649,100,-1,-1,-1,-1</geom>
+			<geom>102,725,574,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle21</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4638,7 +4656,7 @@
 		<TextElement sr="elements6" ve="3">
 			<clickTask>56</clickTask>
 			<flags>4</flags>
-			<geom>77,500,650,100,-1,-1,-1,-1</geom>
+			<geom>102,600,574,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text41</Str>
 			<Str sr="arg1" ve="3">Скачать для Recovery &gt; Magisk.zip</Str>
 			<Int sr="arg2" val="12"/>
@@ -4652,7 +4670,7 @@
 		<TextElement sr="elements7" ve="3">
 			<clickTask>57</clickTask>
 			<flags>4</flags>
-			<geom>77,625,652,100,-1,-1,-1,-1</geom>
+			<geom>102,725,574,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text42</Str>
 			<Str sr="arg1" ve="3">Скачать установщик &gt; Magisk.apk</Str>
 			<Int sr="arg2" val="12"/>
@@ -4665,20 +4683,26 @@
 		</TextElement>
 		<TextElement sr="elements8" ve="3">
 			<flags>4</flags>
-			<geom>77,425,1002,50,-1,-1,-1,-1</geom>
+			<geom>102,400,949,175,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text52</Str>
-			<Str sr="arg1" ve="3">26.3 (26300) (37) [STABLE | OFFICIAL]</Str>
+			<Str sr="arg1" ve="3">Платформа с открытым исходным кодом, для:
+
+•MagiskSU: Предоставления и управления рут-доступом с последующим скрытием вмешательства;
+
+•Magisk Modules: Внесистемной модификации системы "на лету" (оверлеем) посредством модулей;
+
+•Zygisk: Динамического внедрения стороннего кода в процессы приложений.</Str>
 			<Int sr="arg2" val="11"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<TextElement sr="elements9" ve="3">
 			<flags>4</flags>
-			<geom>77,875,599,100,-1,-1,-1,-1</geom>
+			<geom>102,975,599,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text51</Str>
 			<Str sr="arg1" ve="3">Mi Fintes (France mode)</Str>
 			<Int sr="arg2" val="18"/>
@@ -4702,7 +4726,7 @@
 	</Scene>
 	<Scene sr="sceneЧто изменилось?">
 		<cdate>1695297890544</cdate>
-		<edate>1697628369593</edate>
+		<edate>1697631269844</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Что изменилось?</nme>
@@ -4897,6 +4921,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">Nightly OTA</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -4930,6 +4955,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://github.com/neiruscd/qmanager/releases</Str>
+			<App sr="arg1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task116">
@@ -5811,7 +5843,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task2">
 		<cdate>1695297951336</cdate>
-		<edate>1697630888741</edate>
+		<edate>1697669849098</edate>
 		<id>2</id>
 		<nme>QManager</nme>
 		<pri>100</pri>
@@ -5821,8 +5853,8 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>qmanager.neiru.com</pkg>
 			<vMin>23</vMin>
 			<vTarg>29</vTarg>
-			<vnme>4.3</vnme>
-			<vnum>182</vnum>
+			<vnme>5.0</vnme>
+			<vnum>185</vnum>
 		</Kid>
 		<Action sr="act0" ve="7">
 			<code>397</code>
@@ -8142,7 +8174,7 @@ android.permission.PACKAGE_USAGE_STATS</Str>
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>104</code>
-			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=ru.nspk.mirpay</Str>
+			<Str sr="arg0" ve="3">https://kurl.ru/AdTyA</Str>
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
@@ -9270,7 +9302,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>941</code>
-			<Str sr="arg0" ve="3">&lt;div class="vkuiBanner__actions Banner__actions"&gt;&lt;a href="https://www.mediafire.com/file/rr9grc57lie25jh/QManager.apk/file" class="vkuiButton Button vkuiButton--sz-m Button--sz-m vkuiButton--lvl-primary Button--lvl-primary vkuiButton--clr-accent Button--clr-accent vkuiButton--aln-center Button--aln-center vkuiButton--sizeY-regular Button--sizeY-regular vkuiTappable Tappable vkuiTappable--ios Tappable--ios vkuiTappable--sizeX-compact Tappable--sizeX-compact vkuiTappable--hasActive Tappable--hasActive" style="margin: 8px 0px 12px; width: fit-content; background: rgb(225, 227, 230); color: rgb(25, 25, 26);"&gt;&lt;span class="vkuiButton__in Button__in"&gt;&lt;span class="vkuiButton__content Button__content vkuiText Text vkuiText--sizeY-regular Text--sizeY-regular vkuiText--w-2 Text--w-2"&gt;Скачать&lt;/span&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="vkuiFocusVisible FocusVisible vkuiFocusVisible--outside FocusVisible--outside"&gt;&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;a href="https://github.com/vtosters/lite/" class="vkuiButton Button vkuiButton--sz-m Button--sz-m vkuiButton--lvl-primary Button--lvl-primary vkuiButton--clr-accent Button--clr-accent vkuiButton--aln-center Button--aln-center vkuiButton--sizeY-regular Button--sizeY-regular vkuiTappable Tappable vkuiTappable--ios Tappable--ios vkuiTappable--sizeX-compact Tappable--sizeX-compact vkuiTappable--hasActive Tappable--hasActive" style="margin: 0px 0px 12px; width: fit-content; background: rgb(225, 227, 230); color: rgb(25, 25, 26);"&gt;&lt;span class="vkuiButton__in Button__in"&gt;&lt;span class="vkuiButton__content Button__content vkuiText Text vkuiText--sizeY-regular Text--sizeY-regular vkuiText--w-2 Text--w-2"&gt;Посмотреть исходный код&lt;/span&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="vkuiFocusVisible FocusVisible vkuiFocusVisible--outside FocusVisible--outside"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</Str>
+			<Str sr="arg0" ve="3">&lt;div class="vkuiBanner__actions Banner__actions"&gt;&lt;a href="https://www.mediafire.com/file/rr9grc57lie25jh/QManager.apk/file" class="vkuiButton Button vkuiButton--sz-m Button--sz-m vkuiButton--lvl-primary Button--lvl-primary vkuiButton--clr-accent Button--clr-accent vkuiButton--aln-center Button--aln-center vkuiButton--sizeY-regular Button--sizeY-regular vkuiTappable Tappable vkuiTappable--ios Tappable--ios vkuiTappable--sizeX-compact Tappable--sizeX-compact vkuiTappable--hasActive Tappable--hasActive" style="margin: 8px 0px 12px; width: fit-content; background: rgb(225, 227, 230); color: rgb(25, 25, 26);"&gt;&lt;span class="vkuiButton__in Button__in"&gt;&lt;span class="vkuiButton__content Button__content vkuiText Text vkuiText--sizeY-regular Text--sizeY-regular vkuiText--w-2 Text--w-2"&gt;Скачать&lt;/span&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="vkuiFocusVisible FocusVisible vkuiFocusVisible--outside FocusVisible--outside"&gt;&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;a href="https://github.com/neiruscd/QManager" class="vkuiButton Button vkuiButton--sz-m Button--sz-m vkuiButton--lvl-primary Button--lvl-primary vkuiButton--clr-accent Button--clr-accent vkuiButton--aln-center Button--aln-center vkuiButton--sizeY-regular Button--sizeY-regular vkuiTappable Tappable vkuiTappable--ios Tappable--ios vkuiTappable--sizeX-compact Tappable--sizeX-compact vkuiTappable--hasActive Tappable--hasActive" style="margin: 0px 0px 12px; width: fit-content; background: rgb(225, 227, 230); color: rgb(25, 25, 26);"&gt;&lt;span class="vkuiButton__in Button__in"&gt;&lt;span class="vkuiButton__content Button__content vkuiText Text vkuiText--sizeY-regular Text--sizeY-regular vkuiText--w-2 Text--w-2"&gt;Посмотреть исходный код&lt;/span&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="vkuiFocusVisible FocusVisible vkuiFocusVisible--outside FocusVisible--outside"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;</Str>
 			<Str sr="arg1" ve="3">HTML Popup</Str>
 			<Int sr="arg2" val="600"/>
 			<Int sr="arg3" val="1"/>
@@ -9308,6 +9340,18 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task98">
+		<cdate>1697060160597</cdate>
+		<edate>1697060160597</edate>
+		<id>98</id>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://github.com/neiruscd/QManager</Str>
+			<App sr="arg1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Оплата</Str>
 		</Action>
 	</Task>
 </TaskerData>
