@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
+    <a href="https://t.me/hackstoreapk">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
           <img src="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
@@ -7,7 +7,7 @@
     </a>
     <br>
     <br>
-    <a href="https://t.me/s/HackStore apk">
+    <a href="https://t.me/hackstoreapk">
         <img src="https://img.shields.io/badge/-Telegram-blue?style=for-the-badge&logo=telegram&color=2AABEE"/>
     </a>
     <a href="">
