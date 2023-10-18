@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://vtosters.app/">
+    <a href="">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="">
           <img src="">
@@ -17,14 +17,14 @@
         <img src="https://img.shields.io/badge/-Discord-blue?style=for-the-badge&logo=discord&color=5865F2&logoColor=FFFFFF"/>
     </a>
     <br>
-    <a href="https://github.com/vtosters/lite/issues">
-        <img src="https://img.shields.io/github/issues/vtosters/lite?style=flat-square"/>
+    <a href="https://github.com/QManager/issues">
+        <img src="https://img.shields.io/github/issues/QManager?style=flat-square"/>
     </a>
-    <a href="https://github.com/vtosters/lite/network/members">
-        <img src="https://img.shields.io/github/forks/vtosters/lite?style=flat-square"/>
+    <a href="https://github.com/QManager/network/members">
+        <img src="https://img.shields.io/github/forks/QManager?style=flat-square"/>
     </a>
-    <a href="https://github.com/vtosters/lite/stargazers">
-        <img src="https://img.shields.io/github/stars/vtosters/lite?style=flat-square"/>
+    <a href="https://github.com/QManager/stargazers">
+        <img src="https://img.shields.io/github/stars/QManager?style=flat-square"/>
     </a>
 </p>
 
