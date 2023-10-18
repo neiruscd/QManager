@@ -27,4 +27,4 @@
 
 **QManager** — **менеджер модифицированных приложений и не только. Разработанный полностью на Tasker**
 
-* Стабильные сборки находятся в [Releases](https://github.com/neiruscd/qmanager/releases)
+* Релизные и пре-релизные сборки находятся в [Releases](https://github.com/neiruscd/qmanager/releases)
