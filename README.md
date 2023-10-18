@@ -21,10 +21,10 @@
         <img src="https://img.shields.io/github/forks/neiruscd/QManager?style=flat-square"/>
     </a>
     <a href="https://github.com/QManager/stargazers">
-        <img src="https://img.shields.io/github/stars/QManager?style=flat-square"/>
+        <img src="https://img.shields.io/github/stars/neiruscd/QManager?style=flat-square"/>
     </a>
 </p>
 
 **Qmanager** — **менеджер модифицированных приложений и не только.**
 
-* Стабильные сборки находятся в [Releases](https://github.com/qmanager/releases)
+* Стабильные сборки находятся в [Releases](https://github.com/neiruscd/qmanager/releases)
