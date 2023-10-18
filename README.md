@@ -14,10 +14,7 @@
         <img src="https://img.shields.io/badge/-VK-blue?style=for-the-badge&logo=vk&color=0077FF"/>
     </a>
     <a href="">
-        <img src="https://img.shields.io/badge/-Discord-blue?style=for-the-badge&logo=discord&color=5865F2&logoColor=FFFFFF"/>
-    </a>
-    <br>
-    <a href="https://github.com/neiruscd/QManager/issues">
+        href="https://github.com/neiruscd/QManager/issues">
         <img src="https://img.shields.io/github/issues/neiruscd/QManager?style=flat-square"/>
     </a>
     <a href="https://github.com/neiruscd/QManager/network/members">
