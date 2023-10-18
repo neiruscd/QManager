@@ -31,5 +31,8 @@
 
 ## Помощь в разработке
 
-Приложение создано на [Tasker](https://www.mediafire.com/file/qw4r3duu7nyrrig/Tasker.6.1.32.apk/file), xml со сценами и прочим, прикреплён к каждому обновлению QManager в [Releases](https://github.com/neiruscd/qmanager/releases)
-Скачать последний [xml file](https://github.com/neiruscd/QManager/blob/main/QManager.prj.xml)
+• Последняя версия [Tasker](https://www.mediafire.com/file/qw4r3duu7nyrrig/Tasker.6.1.32.apk/file) на котором был создан QManager.
+
+• xml file со сценами и прочим, прикреплён к каждому обновлению QManager в [Releases](https://github.com/neiruscd/qmanager/releases)
+
+• Скачать последний [xml file](https://github.com/neiruscd/QManager/blob/main/QManager.prj.xml)
