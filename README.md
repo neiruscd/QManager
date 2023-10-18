@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
           <img src="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
         </picture>
     </a>
