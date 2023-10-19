@@ -3,8 +3,8 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1695297877566</cdate>
 		<name>QManager</name>
-		<scenes>О приложении,Загрузка,Новая версия!,Музыка,Карты,Кино,Debug Menu,Маркеты,Развлечения 2,VPN,Мессенджеры,Утилиты,Банки,Download Process,Развлечения,Статья,Категории,Что изменилось?,Оплата,Интерактивная Карта</scenes>
-		<tids>55,50,51,115,90,91,148,30,77,69,144,70,98,120,23,68,63,87,58,59,13,10,54,57,32,53,34,117,88,4,92,42,56,46,41,62,82,149,40,48,76,35,94,36,9,95,80,28,65,140,93,60,52,38,145,44,116,47,122,147,43,74,39,72,85,81,66,119,61,89,71,78,31,16,64,49,86,75,83,79,96,73,37,3,67,84,133,33,151,2,45,97</tids>
+		<scenes>Категории,Развлечения,VPN,Источники,Утилиты,Банки,Кино,Загрузка,О приложении,Новая версия!,Развлечения 2,Статья,Мессенджеры,Музыка,Что изменилось?,Маркеты,Карты,Download Process,Debug Menu,Оплата,Интерактивная Карта</scenes>
+		<tids>28,147,4,54,145,50,117,49,73,122,51,116,77,43,40,35,60,16,71,33,148,5,39,84,98,80,61,42,13,56,94,9,91,65,36,57,133,96,82,53,37,85,86,140,66,59,45,64,69,44,97,120,75,48,88,78,119,46,72,149,2,87,95,115,79,81,58,31,38,76,30,55,32,93,62,41,144,63,10,83,47,23,52,74,67,89,90,3,68,34,92,70,151</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/vr.png</fle>
 		</Img>
@@ -968,6 +968,82 @@
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF0E0E0E</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Download Home</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneИсточники">
+		<cdate>1695297890544</cdate>
+		<edate>1697742110676</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2201</heightPort>
+		<nme>Источники</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,1077,175,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Источники</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>27,200,1025,1375,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3">#FF707070</Str>
+			<Str sr="arg3" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>52,325,977,750,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle3</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>52,325,977,1075,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text51</Str>
+			<Str sr="arg1" ve="3">1. https://www.luckypatchers.com (Lucky Patcher)
+2. https://vtosters.app (VTlite)
+3. https://4pda.to/forum/index.php?showtopic=990766&amp;view=findpost&amp;p=125670605 (Mi Fitness France Mod)
+4. https://revanced.net/ (ReVanced YT, ReTwitch)
+5. https://t.me/thedise (Instander, Spotify Henkei)
+6. https://www.xmanagerapp.com/ (Spotify xC3FFF0E)
+7. https://github.com/topjohnwu/Magisk/releases (Magisk)
+8. https://t.me/TikTokModCloud (TikTok Mod - ОФФИЦИАЛЬНЫЙ КАНАЛ, В ОСТАЛЬНЫХ ВИРУС)</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="1"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="8"/>
 			<Str sr="arg2" ve="3">#FF0E0E0E</Str>
 			<Int sr="arg3" val="0"/>
 			<Str sr="arg4" ve="3">Download Home</Str>
@@ -2963,7 +3039,7 @@
 	</Scene>
 	<Scene sr="sceneМузыка">
 		<cdate>1695297890544</cdate>
-		<edate>1697116010134</edate>
+		<edate>1697742022432</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Музыка</nme>
@@ -3204,7 +3280,7 @@
 	</Scene>
 	<Scene sr="sceneНовая версия!">
 		<cdate>1695297890544</cdate>
-		<edate>1697628456860</edate>
+		<edate>1697741363214</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Новая версия!</nme>
@@ -3312,7 +3388,7 @@
 	</Scene>
 	<Scene sr="sceneО приложении">
 		<cdate>1695297890544</cdate>
-		<edate>1697669079986</edate>
+		<edate>1697741547209</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>О приложении</nme>
@@ -3381,7 +3457,7 @@
 		<TextElement sr="elements13" ve="3">
 			<clickTask>119</clickTask>
 			<flags>4</flags>
-			<geom>77,1100,924,100,-1,-1,-1,-1</geom>
+			<geom>77,1100,874,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text41111</Str>
 			<Str sr="arg1" ve="3">Проверить обновления</Str>
 			<Int sr="arg2" val="12"/>
@@ -3530,6 +3606,32 @@
 			</Img>
 			<Int sr="arg2" val="255"/>
 		</ImageElement>
+		<RectElement sr="elements24">
+			<flags>4</flags>
+			<geom>552,850,449,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle21112</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements25" ve="3">
+			<clickTask>5</clickTask>
+			<flags>4</flags>
+			<geom>552,850,449,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text41112</Str>
+			<Str sr="arg1" ve="3">Источники</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF828282</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
 			<geom>0,0,1077,200,-1,-1,-1,-1</geom>
@@ -4444,7 +4546,7 @@
 	</Scene>
 	<Scene sr="sceneУтилиты">
 		<cdate>1695297890544</cdate>
-		<edate>1697670101912</edate>
+		<edate>1697742015051</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Утилиты</nme>
@@ -5843,7 +5945,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task2">
 		<cdate>1695297951336</cdate>
-		<edate>1697669849098</edate>
+		<edate>1697742206649</edate>
 		<id>2</id>
 		<nme>QManager</nme>
 		<pri>100</pri>
@@ -5854,7 +5956,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<vMin>23</vMin>
 			<vTarg>29</vTarg>
 			<vnme>5.0</vnme>
-			<vnum>185</vnum>
+			<vnum>186</vnum>
 		</Kid>
 		<Action sr="act0" ve="7">
 			<code>397</code>
@@ -8025,6 +8127,26 @@ android.permission.PACKAGE_USAGE_STATS</Str>
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3">Карты</Str>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1695328362083</cdate>
+		<edate>1695328362083</edate>
+		<id>5</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Источники</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task50">
