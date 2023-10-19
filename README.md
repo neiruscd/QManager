@@ -1,8 +1,8 @@
 <p align="center">
     <a href="https://t.me/hackstoreapk">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
-          <img src="https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-production-user-asset-6210df.s3.amazonaws.com/145120697/276762879-06217b9c-6837-42e8-9461-0cea9c2588f6.png">
+          <img src="[https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png](https://github-production-user-asset-6210df.s3.amazonaws.com/145120697/276762879-06217b9c-6837-42e8-9461-0cea9c2588f6.png)">
         </picture>
     </a>
     <br>
