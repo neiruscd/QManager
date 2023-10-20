@@ -3,8 +3,15 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1695297877566</cdate>
 		<name>QManager</name>
-		<scenes>Категории,Debug Menu,Банки,Лаборатория Функций,Утилиты,Источники,Загрузка,О приложении,Развлечения 2,Новая версия!,Кино,Статья,Развлечения,Карты,Маркеты,VPN,Мессенджеры,WebApp,Музыка</scenes>
-		<tids>10,115,30,98,44,76,81,51,119,16,28,38,46,69,94,72,60,149,78,109,50,43,122,33,56,102,9,61,13,74,133,77,82,117,7,42,87,64,54,111,83,66,45,49,89,34,147,58,65,75,47,39,71,96,53,144,70,91,90,92,36,67,86,4,52,48,140,84,59,40,85,148,145,5,32,57,80,79,110,104,37,95,41,103,35,120,116,93,88,151,68,31,55,63,73,99,100,62,3,23,2,97</tids>
+		<scenes>Развлечения 2,Мессенджеры,Кино,Утилиты,VPN,Лаборатория Функций,Маркеты,WebApp,Новая версия!,Загрузка,Банки,Debug Menu,Музыка,Развлечения,Источники,Карты,О приложении,Категории,Статья</scenes>
+		<tids>55,72,30,70,59,122,91,31,120,46,10,75,104,147,50,102,94,117,73,56,110,60,35,44,13,76,63,98,49,3,149,74,144,32,133,148,5,112,115,119,82,38,88,116,99,92,80,54,81,45,89,58,64,140,16,65,90,109,87,41,103,53,39,78,7,77,66,36,93,43,57,83,40,48,96,84,4,68,34,85,86,28,111,33,51,42,52,62,79,37,71,61,145,100,69,9,67,95,47,2</tids>
+		<Kid sr="Kid">
+			<launchID>2</launchID>
+			<pkg>qmanager.neiru.com</pkg>
+			<vTarg>29</vTarg>
+			<vnme>6.0</vnme>
+			<vnum>2</vnum>
+		</Kid>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/free-icon-black-hole-4698783.png</fle>
 		</Img>
@@ -909,7 +916,7 @@
 	</Scene>
 	<Scene sr="sceneИсточники">
 		<cdate>1695297890544</cdate>
-		<edate>1697750663642</edate>
+		<edate>1697789719304</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Источники</nme>
@@ -930,11 +937,11 @@
 		</TextElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>27,200,1025,675,-1,-1,-1,-1</geom>
+			<geom>27,200,1025,800,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle1</Str>
 			<Int sr="arg1" val="3"/>
 			<Str sr="arg2" ve="3">#FF707070</Str>
-			<Str sr="arg3" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3">#FF656262</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="30"/>
@@ -954,7 +961,7 @@
 		</RectElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>52,250,977,600,-1,-1,-1,-1</geom>
+			<geom>52,225,977,775,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text51</Str>
 			<Str sr="arg1" ve="3">1. https://www.luckypatchers.com (Lucky Patcher)
 2. https://vtosters.app (VTlite)
@@ -963,7 +970,10 @@
 5. https://t.me/thedise (Instander, Spotify Henkei)
 6. https://www.xmanagerapp.com/ (Spotify xC3FFF0E)
 7. https://github.com/topjohnwu/Magisk/releases (Magisk)
-8. https://t.me/TikTokModCloud (TikTok Mod)</Str>
+8. https://t.me/TikTokModCloud (TikTok Mod)
+9. https://t.me/vkxci (VKX)
+10. https://t.me/sovaV (Sova RE)
+11. https://t.me/vkmp3mod (VK MP3 MOD)</Str>
 			<Int sr="arg2" val="14"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -1282,7 +1292,7 @@
 	</Scene>
 	<Scene sr="sceneКатегории">
 		<cdate>1695297890544</cdate>
-		<edate>1697751467872</edate>
+		<edate>1697786935940</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Категории</nme>
@@ -1818,7 +1828,7 @@
 			<Str sr="arg1" ve="3">Лаборатория Функций</Str>
 			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg4" ve="3">#FF171717</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
@@ -1924,7 +1934,7 @@
 	</Scene>
 	<Scene sr="sceneКино">
 		<cdate>1695297890544</cdate>
-		<edate>1697750611835</edate>
+		<edate>1697787517040</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Кино</nme>
@@ -2451,7 +2461,7 @@
 	</Scene>
 	<Scene sr="sceneЛаборатория Функций">
 		<cdate>1695297890544</cdate>
-		<edate>1697749861063</edate>
+		<edate>1697790185904</edate>
 		<gridSize>0</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
@@ -2856,7 +2866,7 @@
 	</Scene>
 	<Scene sr="sceneМессенджеры">
 		<cdate>1695297890544</cdate>
-		<edate>1697750690156</edate>
+		<edate>1697789010913</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Мессенджеры</nme>
@@ -3067,11 +3077,141 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
+		<ListElement sr="elements15">
+			<flags>4</flags>
+			<geom>77,425,950,350,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Menu11</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1695375536015</cdate>
+					<edate>1695375536015</edate>
+					<heightLand>-1</heightLand>
+					<heightPort>135</heightPort>
+					<nme>Builtin Item Layout</nme>
+					<widthLand>-1</widthLand>
+					<widthPort>955</widthPort>
+					<RectElement sr="elements0">
+						<flags>4</flags>
+						<geom>0,0,649,100,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Rectangle2111</Str>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg3" ve="3"/>
+						<Int sr="arg4" val="0"/>
+						<Str sr="arg5" ve="3">#FF000000</Str>
+						<Int sr="arg6" val="30"/>
+						<Int sr="arg7" val="0"/>
+					</RectElement>
+					<ImageElement sr="elements1" ve="2">
+						<flags>1</flags>
+						<geom>502,4,153,129,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Icon</Str>
+						<Img sr="arg1" ve="2">
+							<nme>hd_aaa_ext_tiles_small</nme>
+						</Img>
+						<Int sr="arg2" val="255"/>
+					</ImageElement>
+					<TextElement sr="elements2" ve="3">
+						<flags>1</flags>
+						<geom>15,0,81,135,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Index</Str>
+						<Str sr="arg1" ve="3">1.</Str>
+						<Int sr="arg2" val="24"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg5" ve="3"/>
+						<Int sr="arg6" val="0"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
+					</TextElement>
+					<TextElement sr="elements3" ve="3">
+						<flags>5</flags>
+						<geom>0,30,651,105,-1,-1,-1,-1</geom>
+						<Str sr="arg0" ve="3">Label</Str>
+						<Str sr="arg1" ve="3"/>
+						<Int sr="arg2" val="12"/>
+						<Int sr="arg3" val="100"/>
+						<Str sr="arg4" ve="3">#FF828282</Str>
+						<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+						<Int sr="arg6" val="1"/>
+						<Int sr="arg7" val="0"/>
+						<Int sr="arg8" val="0"/>
+					</TextElement>
+					<PropertiesElement sr="props">
+						<Int sr="arg0" val="1"/>
+						<Int sr="arg1" val="0"/>
+						<Str sr="arg2" ve="3">#00000000</Str>
+						<Int sr="arg3" val="0"/>
+						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
+						<Str sr="arg5" ve="3"/>
+						<Img sr="arg6" ve="2"/>
+						<Str sr="arg7" ve="3"/>
+					</PropertiesElement>
+				</Scene>
+			</Scene>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+			<ListElementItem sr="item0">
+				<label>SOVA V RE</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://kurl.ru/bLMLO</Str>
+					<App sr="arg1"/>
+					<Int sr="arg2" val="0"/>
+					<Str sr="arg3" ve="3"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>VTlite</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://kurl.ru/OzLmr</Str>
+					<App sr="arg1"/>
+					<Int sr="arg2" val="0"/>
+					<Str sr="arg3" ve="3"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>VK MP3 Mod</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://kurl.ru/ZxcpF</Str>
+					<App sr="arg1"/>
+					<Int sr="arg2" val="0"/>
+					<Str sr="arg3" ve="3"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item3">
+				<label>SuperNOVA</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://kurl.ru/IqRSD</Str>
+					<App sr="arg1"/>
+					<Int sr="arg2" val="0"/>
+					<Str sr="arg3" ve="3"/>
+				</Action>
+			</ListElementItem>
+		</ListElement>
 		<TextElement sr="elements2" ve="3">
 			<flags>4</flags>
-			<geom>77,325,549,100,-1,-1,-1,-1</geom>
+			<geom>77,325,624,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
-			<Str sr="arg1" ve="3">VTosters</Str>
+			<Str sr="arg1" ve="3">ВКонтакте модификации</Str>
 			<Int sr="arg2" val="18"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -3081,7 +3221,6 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<RectElement sr="elements3">
-			<flags>4</flags>
 			<geom>77,675,424,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle21</Str>
 			<Int sr="arg1" val="0"/>
@@ -3093,8 +3232,7 @@
 			<Int sr="arg7" val="0"/>
 		</RectElement>
 		<TextElement sr="elements4" ve="3">
-			<flags>4</flags>
-			<geom>77,425,949,250,-1,-1,-1,-1</geom>
+			<geom>77,775,949,250,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text52</Str>
 			<Str sr="arg1" ve="3">Очень быстрая и функциональнальная модификация официального приложения ВКонтакте.
 
@@ -3123,7 +3261,7 @@
 			<flags>4</flags>
 			<geom>102,925,549,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text51</Str>
-			<Str sr="arg1" ve="3">WhatsApp Mod</Str>
+			<Str sr="arg1" ve="3">WhatsApp Модификации</Str>
 			<Int sr="arg2" val="18"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -3159,8 +3297,7 @@
 		</RectElement>
 		<TextElement sr="elements9" ve="3">
 			<clickTask>72</clickTask>
-			<flags>4</flags>
-			<geom>77,675,424,100,-1,-1,-1,-1</geom>
+			<geom>52,800,424,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text42</Str>
 			<Str sr="arg1" ve="3">Скачать/Обновить</Str>
 			<Int sr="arg2" val="12"/>
@@ -3196,7 +3333,7 @@
 	</Scene>
 	<Scene sr="sceneМузыка">
 		<cdate>1695297890544</cdate>
-		<edate>1697750678949</edate>
+		<edate>1697790543109</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Музыка</nme>
@@ -3227,6 +3364,82 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
+		<RectElement sr="elements10">
+			<flags>4</flags>
+			<geom>27,1650,1025,400,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle111</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Str sr="arg3" ve="3">#FFFF3B73</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>77,1700,824,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text511</Str>
+			<Str sr="arg1" ve="3">VKX</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements12" ve="3">
+			<flags>4</flags>
+			<geom>77,1800,949,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text5211</Str>
+			<Str sr="arg1" ve="3">Красивый и удобный, с множеством функций, альтернативный плеер музыки ВКонтакте.</Str>
+			<Int sr="arg2" val="11"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements13">
+			<flags>4</flags>
+			<geom>77,1900,274,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle211</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements14" ve="3">
+			<clickTask>112</clickTask>
+			<flags>4</flags>
+			<geom>77,1900,274,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text421</Str>
+			<Str sr="arg1" ve="3">Скачать</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF828282</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
 		<TextElement sr="elements2" ve="3">
 			<flags>4</flags>
 			<geom>77,325,824,100,-1,-1,-1,-1</geom>
@@ -3242,7 +3455,7 @@
 		</TextElement>
 		<RectElement sr="elements3">
 			<flags>4</flags>
-			<geom>77,750,649,100,-1,-1,-1,-1</geom>
+			<geom>77,750,274,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle21</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -3275,7 +3488,7 @@
 		<TextElement sr="elements5" ve="3">
 			<clickTask>133</clickTask>
 			<flags>4</flags>
-			<geom>77,750,649,100,-1,-1,-1,-1</geom>
+			<geom>77,750,274,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text42</Str>
 			<Str sr="arg1" ve="3">Перейти</Str>
 			<Int sr="arg2" val="12"/>
@@ -3405,6 +3618,27 @@
 				<Action sr="action" ve="7">
 					<code>104</code>
 					<Str sr="arg0" ve="3">https://kurl.ru/ERMeW</Str>
+					<App sr="arg1"/>
+					<Int sr="arg2" val="0"/>
+					<Str sr="arg3" ve="3"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Amoled модификация</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<se>false</se>
+					<Str sr="arg0" ve="3">https://kurl.ru/GvZxK</Str>
+					<App sr="arg1"/>
+					<Int sr="arg2" val="0"/>
+					<Str sr="arg3" ve="3"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item2">
+				<label>Lite модификация</label>
+				<Action sr="action" ve="7">
+					<code>104</code>
+					<Str sr="arg0" ve="3">https://kurl.ru/krEjX</Str>
 					<App sr="arg1"/>
 					<Int sr="arg2" val="0"/>
 					<Str sr="arg3" ve="3"/>
@@ -3545,7 +3779,7 @@
 	</Scene>
 	<Scene sr="sceneО приложении">
 		<cdate>1695297890544</cdate>
-		<edate>1697751812632</edate>
+		<edate>1697789811600</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>О приложении</nme>
@@ -3873,7 +4107,7 @@
 			<longclickTask>149</longclickTask>
 			<Str sr="arg0" ve="3">Image1</Str>
 			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Documents/pixelLab/20231020_002839.png</fle>
+				<fle>/storage/emulated/0/Documents/pixelLab/20231020_111614.png</fle>
 			</Img>
 			<Int sr="arg2" val="227"/>
 			<RectElement sr="background">
@@ -3902,7 +4136,7 @@
 	</Scene>
 	<Scene sr="sceneРазвлечения">
 		<cdate>1695297890544</cdate>
-		<edate>1697750711925</edate>
+		<edate>1697788465710</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Развлечения</nme>
@@ -5255,9 +5489,27 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<id>111</id>
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">Анимация лаборатории</Str>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>48</code>
 			<Str sr="arg0" ve="3">Лаборатория Функций</Str>
 			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task112">
+		<cdate>1695328362083</cdate>
+		<edate>1695328362083</edate>
+		<id>112</id>
+		<pri>104</pri>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://kurl.ru/PtIAV</Str>
+			<App sr="arg1"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task115">
@@ -6087,84 +6339,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg3" ve="3"/>
 		</Action>
 	</Task>
-	<Task sr="task151">
-		<cdate>1695969230346</cdate>
-		<edate>1697150085036</edate>
-		<id>151</id>
-		<nme>Download</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>335</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_apk
-APK File
-The full path to the APK of the app. You can use the Copy File action to copy it somewhere and rename it if you like.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_uid
-APK File
-The kernel user-ID that has been assigned to this application; currently this is not a unique ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_activity_classes()
-Activity Classes
-The class names of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%app_activity_enabled()
-Activity Enabled
-For each activity, true if enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%app_activity_exported()
-Activity Exported
-For each activity, true if exported, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%app_activity_labels()
-Activity Labels
-The name of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%app_enabled
-Enabled
-true if app is enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%app_install_time
-First Install Time
-Time in seconds since EPOCH that app was first installed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%app_icon
-Icon
-Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%app_installer_package
-Installer Package Name
-Package name for the app that installed this app. Can be used to check if app was installed from Google Play.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%app_is_default_launcher
-Is Default Launcher
-true if the app is the current launcher in use, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%app_is_launcher
-Is Launcher
-true if the app is a launcher app, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%app_update_time
-Last Update Time
-Time in seconds since EPOCH that app was last updated&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%app_min_sdk
-Minimum SDK
-Minimum SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%app_name
-Name
-Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%app_package
-Package
-Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%app_version_code
-Package Version
-The version of the app in code format (a number)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%app_version_label
-Package Version Label
-The version of the app as you usually see it&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%app_permissions()
-Permissions
-Permissions the app requests.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%app_permissions_granted()
-Permissions Granted
-Corresponds to the %permissions array. true or false depending if the permission has been granted or not.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%app_apk_public_source_dirs()
-Public Source Directories
-Full path to the publicly available parts of splitSourceDirs, including resources and manifest.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%app_target_sdk
-Target SDK
-Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">qmanager.xzitr.com</Str>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">Download Process</Str>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-	</Task>
 	<Task sr="task16">
 		<cdate>1695328362083</cdate>
 		<edate>1695328362083</edate>
@@ -6189,7 +6363,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task2">
 		<cdate>1695297951336</cdate>
-		<edate>1697751773841</edate>
+		<edate>1697789864597</edate>
 		<id>2</id>
 		<nme>QManager</nme>
 		<pri>100</pri>
@@ -6199,8 +6373,8 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>qmanager.neiru.com</pkg>
 			<vMin>23</vMin>
 			<vTarg>29</vTarg>
-			<vnme>5.0</vnme>
-			<vnum>194</vnum>
+			<vnme>5.1</vnme>
+			<vnum>198</vnum>
 		</Kid>
 		<Action sr="act0" ve="7">
 			<code>397</code>
@@ -6505,326 +6679,6 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Download/free-icon-black-hole-4698783.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task23">
-		<cdate>1695297951336</cdate>
-		<edate>1697064602308</edate>
-		<id>23</id>
-		<nme>QManager BETA</nme>
-		<pri>100</pri>
-		<Kid sr="Kid">
-			<flgs>1</flgs>
-			<launchID>23</launchID>
-			<pkg>qmanager.neiru.com</pkg>
-			<vMin>27</vMin>
-			<vTarg>29</vTarg>
-			<vnme>4.0</vnme>
-			<vnum>165</vnum>
-		</Kid>
-		<Action sr="act0" ve="7">
-			<code>397</code>
-			<label>Получение цветов</label>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%my_accent1_0
-Material You Accent 1 – 0
-Lightest shade of the accent color used by the system. White.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%my_accent1_10
-Material You Accent 1 – 10
-Shade of the accent system color at 99% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%my_accent1_100
-Material You Accent 1 – 100
-Shade of the accent system color at 90% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%my_accent1_1000
-Material You Accent 1 – 1000
-Darkest shade of the accent color used by the system. Black.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%my_accent1_200
-Material You Accent 1 – 200
-Shade of the accent system color at 80% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%my_accent1_300
-Material You Accent 1 – 300
-Shade of the accent system color at 70% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%my_accent1_400
-Material You Accent 1 – 400
-Shade of the accent system color at 60% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%my_accent1_50
-Material You Accent 1 – 50
-Shade of the accent system color at 95% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%my_accent1_500
-Material You Accent 1 – 500
-Shade of the accent system color at 49% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%my_accent1_600
-Material You Accent 1 – 600
-Shade of the accent system color at 40% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%my_accent1_700
-Material You Accent 1 – 700
-Shade of the accent system color at 30% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%my_accent1_800
-Material You Accent 1 – 800
-Shade of the accent system color at 20% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%my_accent1_900
-Material You Accent 1 – 900
-Shade of the accent system color at 10% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%my_accent2_0
-Material You Accent 2 – 0
-Lightest shade of the secondary accent color used by the system. White.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%my_accent2_10
-Material You Accent 2 – 10
-Shade of the secondary accent system color at 99% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%my_accent2_100
-Material You Accent 2 – 100
-Shade of the secondary accent system color at 90% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%my_accent2_1000
-Material You Accent 2 – 1000
-Darkest shade of the secondary accent color used by the system. Black.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%my_accent2_200
-Material You Accent 2 – 200
-Shade of the secondary accent system color at 80% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%my_accent2_300
-Material You Accent 2 – 300
-Shade of the secondary accent system color at 70% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%my_accent2_400
-Material You Accent 2 – 400
-Shade of the secondary accent system color at 60% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%my_accent2_50
-Material You Accent 2 – 50
-Shade of the secondary accent system color at 95% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%my_accent2_500
-Material You Accent 2 – 500
-Shade of the secondary accent system color at 49% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%my_accent2_600
-Material You Accent 2 – 600
-Shade of the secondary accent system color at 40% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%my_accent2_700
-Material You Accent 2 – 700
-Shade of the secondary accent system color at 30% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%my_accent2_800
-Material You Accent 2 – 800
-Shade of the secondary accent system color at 20% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%my_accent2_900
-Material You Accent 2 – 900
-Shade of the secondary accent system color at 10% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%my_accent3_0
-Material You Accent 3 – 0
-Lightest shade of the tertiary accent color used by the system. White.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%my_accent3_10
-Material You Accent 3 – 10
-Shade of the tertiary accent system color at 99% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%my_accent3_100
-Material You Accent 3 – 100
-Shade of the tertiary accent system color at 90% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%my_accent3_1000
-Material You Accent 3 – 1000
-Darkest shade of the tertiary accent color used by the system. Black.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%my_accent3_200
-Material You Accent 3 – 200
-Shade of the tertiary accent system color at 80% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%my_accent3_300
-Material You Accent 3 – 300
-Shade of the tertiary accent system color at 70% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%my_accent3_400
-Material You Accent 3 – 400
-Shade of the tertiary accent system color at 60% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%my_accent3_50
-Material You Accent 3 – 50
-Shade of the tertiary accent system color at 95% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%my_accent3_500
-Material You Accent 3 – 500
-Shade of the tertiary accent system color at 49% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%my_accent3_600
-Material You Accent 3 – 600
-Shade of the tertiary accent system color at 40% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%my_accent3_700
-Material You Accent 3 – 700
-Shade of the tertiary accent system color at 30% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%my_accent3_800
-Material You Accent 3 – 800
-Shade of the tertiary accent system color at 20% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%my_accent3_900
-Material You Accent 3 – 900
-Shade of the tertiary accent system color at 10% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%my_neutral1_0
-Material You Neutral 1 – 0
-Lightest shade of the neutral color used by the system. White.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%my_neutral1_10
-Material You Neutral 1 – 10
-Shade of the neutral system color at 99% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%my_neutral1_100
-Material You Neutral 1 – 100
-Shade of the neutral system color at 90% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%my_neutral1_1000
-Material You Neutral 1 – 1000
-Darkest shade of the neutral color used by the system. Black.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%my_neutral1_200
-Material You Neutral 1 – 200
-Shade of the neutral system color at 80% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%my_neutral1_300
-Material You Neutral 1 – 300
-Shade of the neutral system color at 70% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%my_neutral1_400
-Material You Neutral 1 – 400
-Shade of the neutral system color at 60% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%my_neutral1_50
-Material You Neutral 1 – 50
-Shade of the neutral system color at 95% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%my_neutral1_500
-Material You Neutral 1 – 500
-Shade of the neutral system color at 49% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%my_neutral1_600
-Material You Neutral 1 – 600
-Shade of the neutral system color at 40% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%my_neutral1_700
-Material You Neutral 1 – 700
-Shade of the neutral system color at 30% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%my_neutral1_800
-Material You Neutral 1 – 800
-Shade of the neutral system color at 20% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%my_neutral1_900
-Material You Neutral 1 – 900
-Shade of the neutral system color at 10% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;%my_neutral2_0
-Material You Neutral 2 – 0
-Lightest shade of the secondary neutral color used by the system. White.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;%my_neutral2_10
-Material You Neutral 2 – 10
-Shade of the secondary neutral system color at 99% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;%my_neutral2_100
-Material You Neutral 2 – 100
-Shade of the secondary neutral system color at 90% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;%my_neutral2_1000
-Material You Neutral 2 – 1000
-Darkest shade of the secondary neutral color used by the system. Black.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;%my_neutral2_200
-Material You Neutral 2 – 200
-Shade of the secondary neutral system color at 80% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;%my_neutral2_300
-Material You Neutral 2 – 300
-Shade of the secondary neutral system color at 70% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;%my_neutral2_400
-Material You Neutral 2 – 400
-Shade of the secondary neutral system color at 60% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;%my_neutral2_50
-Material You Neutral 2 – 50
-Shade of the secondary neutral system color at 95% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;%my_neutral2_500
-Material You Neutral 2 – 500
-Shade of the secondary neutral system color at 49% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;%my_neutral2_600
-Material You Neutral 2 – 600
-Shade of the secondary neutral system color at 40% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;%my_neutral2_700
-Material You Neutral 2 – 700
-Shade of the secondary neutral system color at 30% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;%my_neutral2_800
-Material You Neutral 2 – 800
-Shade of the secondary neutral system color at 20% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;%my_neutral2_900
-Material You Neutral 2 – 900
-Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>47</code>
-			<label>Главная Сцена</label>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Категории</Str>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<label>Разрешения</label>
-			<Str sr="arg0" ve="3">Разрешения</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>335</code>
-			<label>Информация о приложениях</label>
-			<on>false</on>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_apk()
-APK File
-The full path to the APK of the app. You can use the Copy File action to copy it somewhere and rename it if you like.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_uid()
-APK File
-The kernel user-ID that has been assigned to this application; currently this is not a unique ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_activity_classes()
-Activity Classes
-The class names of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%app_activity_enabled()
-Activity Enabled
-For each activity, true if enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%app_activity_exported()
-Activity Exported
-For each activity, true if exported, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%app_activity_labels()
-Activity Labels
-The name of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%app_enabled()
-Enabled
-true if app is enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%app_install_time()
-First Install Time
-Time in seconds since EPOCH that app was first installed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%app_icon()
-Icon
-Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%app_installer_package()
-Installer Package Name
-Package name for the app that installed this app. Can be used to check if app was installed from Google Play.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%app_is_default_launcher()
-Is Default Launcher
-true if the app is the current launcher in use, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%app_is_launcher()
-Is Launcher
-true if the app is a launcher app, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%app_update_time()
-Last Update Time
-Time in seconds since EPOCH that app was last updated&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%app_min_sdk()
-Minimum SDK
-Minimum SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%app_name()
-Name
-Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%app_package()
-Package
-Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%app_version_code()
-Package Version
-The version of the app in code format (a number)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%app_version_label()
-Package Version Label
-The version of the app as you usually see it&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%app_permissions()
-Permissions
-Permissions the app requests.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%app_permissions_granted()
-Permissions Granted
-Corresponds to the %permissions array. true or false depending if the permission has been granted or not.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%app_apk_public_source_dirs()
-Public Source Directories
-Full path to the publicly available parts of splitSourceDirs, including resources and manifest.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%app_target_sdk()
-Target SDK
-Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.topjohnwu.magisk/com.xiaomi.wearable/com.vtosters.lite/com.zhiliaoapp.musically/com.rezvorck.tiktokplugin</Str>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Nightly OTA Check</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">OTA Check</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Борда новостей</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Меняется название</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Download/free-icon-file-hosting-3845900.png</fle>
 		</Img>
 	</Task>
 	<Task sr="task28">
@@ -7800,7 +7654,6 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>47</code>
-			<se>false</se>
 			<Str sr="arg0" ve="3">Развлечения</Str>
 			<Int sr="arg1" val="7"/>
 			<Int sr="arg10" val="1"/>
@@ -9699,27 +9552,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
-		</Action>
-	</Task>
-	<Task sr="task97">
-		<cdate>1697628870111</cdate>
-		<edate>1697628902682</edate>
-		<id>97</id>
-		<nme>test</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">website</Str>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task98">
