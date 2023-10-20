@@ -3,8 +3,8 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1695297877566</cdate>
 		<name>QManager</name>
-		<scenes>Развлечения 2,Мессенджеры,Кино,Утилиты,VPN,Лаборатория Функций,Маркеты,WebApp,Новая версия!,Загрузка,Банки,Debug Menu,Музыка,Развлечения,Источники,Карты,О приложении,Категории,Статья</scenes>
-		<tids>55,72,30,70,59,122,91,31,120,46,10,75,104,147,50,102,94,117,73,56,110,60,35,44,13,76,63,98,49,3,149,74,144,32,133,148,5,112,115,119,82,38,88,116,99,92,80,54,81,45,89,58,64,140,16,65,90,109,87,41,103,53,39,78,7,77,66,36,93,43,57,83,40,48,96,84,4,68,34,85,86,28,111,33,51,42,52,62,79,37,71,61,145,100,69,9,67,95,47,2</tids>
+		<scenes>Лаборатория Функций,Утилиты,Список изменений,Маркеты,Музыка,О приложении,Новая версия!,Банки,Загрузка,WebApp,Кино,Развлечения 2,VPN,Мессенджеры,Карты,Категории,Debug Menu,Развлечения,Источники,Статья</scenes>
+		<tids>4,80,51,81,57,63,55,149,117,73,49,82,74,140,58,13,7,68,104,31,98,47,38,60,62,35,110,86,111,144,115,41,109,66,87,122,116,34,9,59,52,72,42,91,99,93,50,69,76,148,71,53,102,119,70,78,10,56,120,28,3,32,79,44,48,43,133,145,147,39,61,89,77,54,46,30,40,36,33,75,64,112,92,88,95,67,84,96,5,16,85,103,65,90,83,45,94,2,100,37,118</tids>
 		<Kid sr="Kid">
 			<launchID>2</launchID>
 			<pkg>qmanager.neiru.com</pkg>
@@ -18,7 +18,7 @@
 	</Project>
 	<Scene sr="sceneDebug Menu">
 		<cdate>1696860318923</cdate>
-		<edate>1697750722915</edate>
+		<edate>1697799671554</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Debug Menu</nme>
@@ -66,7 +66,7 @@
 		<TextElement sr="elements3" ve="3">
 			<clickTask>78</clickTask>
 			<flags>4</flags>
-			<geom>27,1425,1025,275,-1,-1,-1,-1</geom>
+			<geom>27,1450,1025,275,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text2</Str>
 			<Str sr="arg1" ve="3">Если у вас развалился QManager, отправляйте логи сюда [тык]</Str>
 			<Int sr="arg2" val="20"/>
@@ -80,7 +80,7 @@
 		<ButtonElement sr="elements4" ve="3">
 			<clickTask>95</clickTask>
 			<flags>4</flags>
-			<geom>302,1275,475,150,-1,-1,-1,-1</geom>
+			<geom>302,1300,475,150,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Button111</Str>
 			<Str sr="arg1" ve="3">Откатиться</Str>
 			<Int sr="arg2" val="16"/>
@@ -3671,7 +3671,7 @@
 	</Scene>
 	<Scene sr="sceneНовая версия!">
 		<cdate>1695297890544</cdate>
-		<edate>1697751054477</edate>
+		<edate>1697800065890</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Новая версия!</nme>
@@ -3692,7 +3692,7 @@
 		</TextElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>27,200,1025,1375,-1,-1,-1,-1</geom>
+			<geom>27,200,1027,1050,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle1</Str>
 			<Int sr="arg1" val="3"/>
 			<Str sr="arg2" ve="3">#FF707070</Str>
@@ -3718,7 +3718,7 @@
 			<flags>4</flags>
 			<geom>52,225,974,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
-			<Str sr="arg1" ve="3">Изменения версии %versionupdate</Str>
+			<Str sr="arg1" ve="3">Изменения v%versionupdate</Str>
 			<Int sr="arg2" val="18"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -3729,7 +3729,7 @@
 		</TextElement>
 		<RectElement sr="elements4">
 			<flags>4</flags>
-			<geom>77,1425,924,100,-1,-1,-1,-1</geom>
+			<geom>27,1275,1024,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -3742,9 +3742,9 @@
 		<TextElement sr="elements5" ve="3">
 			<clickTask>140</clickTask>
 			<flags>4</flags>
-			<geom>77,1425,924,100,-1,-1,-1,-1</geom>
+			<geom>27,1275,1024,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text41</Str>
-			<Str sr="arg1" ve="3">Скачать последнюю версию</Str>
+			<Str sr="arg1" ve="3">Обновить</Str>
 			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FF828282</Str>
@@ -3755,7 +3755,7 @@
 		</TextElement>
 		<TextElement sr="elements6" ve="3">
 			<flags>4</flags>
-			<geom>52,325,974,1075,-1,-1,-1,-1</geom>
+			<geom>52,325,974,900,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text51</Str>
 			<Str sr="arg1" ve="3">%changelogs</Str>
 			<Int sr="arg2" val="14"/>
@@ -3779,7 +3779,7 @@
 	</Scene>
 	<Scene sr="sceneО приложении">
 		<cdate>1695297890544</cdate>
-		<edate>1697789811600</edate>
+		<edate>1697799833140</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>О приложении</nme>
@@ -4847,6 +4847,88 @@
 			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
+	<Scene sr="sceneСписок изменений">
+		<cdate>1695297890544</cdate>
+		<edate>1697799915354</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2201</heightPort>
+		<nme>Список изменений</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>0,0,1077,175,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Список изменений</Str>
+			<Int sr="arg2" val="24"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>27,200,1025,1075,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3">#FF707070</Str>
+			<Str sr="arg3" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>52,325,977,750,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle3</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>52,225,974,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">Изменения v%versionupdate</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>52,325,977,925,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text51</Str>
+			<Str sr="arg1" ve="3">%changelogs</Str>
+			<Int sr="arg2" val="14"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="2"/>
+			<Int sr="arg1" val="8"/>
+			<Str sr="arg2" ve="3">#FF0E0E0E</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Download Home</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
 	<Scene sr="sceneСтатья">
 		<cdate>1695297890544</cdate>
 		<edate>1697018179842</edate>
@@ -5175,7 +5257,7 @@
 	</Scene>
 	<Task sr="task10">
 		<cdate>1695301644424</cdate>
-		<edate>1697751372535</edate>
+		<edate>1697799814783</edate>
 		<id>10</id>
 		<nme>OTA Download</nme>
 		<pri>100</pri>
@@ -5764,6 +5846,18 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<App sr="arg1"/>
 			<Int sr="arg2" val="1"/>
 			<Str sr="arg3" ve="3">ХакСтор</Str>
+		</Action>
+	</Task>
+	<Task sr="task118">
+		<cdate>1697800113283</cdate>
+		<edate>1697800436280</edate>
+		<id>118</id>
+		<nme>test</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>102</code>
+			<Str sr="arg0" ve="3">Download/QManager (5).apk</Str>
+			<Str sr="arg1" ve="3">application/*</Str>
 		</Action>
 	</Task>
 	<Task sr="task119">
@@ -6363,7 +6457,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task2">
 		<cdate>1695297951336</cdate>
-		<edate>1697789864597</edate>
+		<edate>1697799929708</edate>
 		<id>2</id>
 		<nme>QManager</nme>
 		<pri>100</pri>
@@ -8840,7 +8934,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task82">
 		<cdate>1695370065040</cdate>
-		<edate>1697212478668</edate>
+		<edate>1697799822939</edate>
 		<id>82</id>
 		<nme>Страница обновлений</nme>
 		<pri>100</pri>
@@ -9151,6 +9245,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">Страница обновлений</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -9164,6 +9259,32 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">QManager/Files/OTA/version.txt</Str>
+			<Str sr="arg1" ve="3">%versionupdate</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">QManager/Files/OTA/changelogs.txt</Str>
+			<Str sr="arg1" ve="3">%changelogs</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Список изменений</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task88">
