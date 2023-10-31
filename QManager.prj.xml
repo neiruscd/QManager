@@ -3,8 +3,8 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1695297877566</cdate>
 		<name>QManager</name>
-		<scenes>Утилиты,Туториалы,Маркеты,О приложении,Категории,Развлечения 2,Mir Pay Fix,Мессенджеры,Музыка,Загрузка,Debug Menu,Новая версия!,WebApp,Лаборатория Функций,Источники,Карты,Развлечения,Список изменений,Лаборатория Функций beta,VPN,Кино,Банки,Статья</scenes>
-		<tids>4,82,54,34,60,120,57,148,75,53,111,91,78,96,51,124,71,7,50,65,98,31,33,76,90,69,122,87,52,45,83,40,39,116,123,6,144,67,133,77,88,119,64,72,48,94,56,46,140,62,5,125,110,16,28,99,63,73,38,118,30,101,97,35,80,149,66,104,23,43,10,36,58,109,44,81,47,49,55,147,59,92,37,68,117,3,86,126,112,61,95,114,42,32,13,41,115,102,70,9,79,145,89,93,103,84,108,74,85,100,2</tids>
+		<scenes>Категории,Туториалы,Debug Menu,VPN,Загрузка,О приложении,Mir Pay Fix,Новая версия!,Развлечения,Банки,Статья,Лаборатория Функций beta,Кино,Карты,Список изменений,WebApp,Источники,Лаборатория Функций,Музыка,Развлечения 2,Мессенджеры,Утилиты,Маркеты</scenes>
+		<tids>98,149,119,92,30,23,145,100,97,76,87,122,57,64,49,6,45,55,96,102,4,94,65,133,54,60,59,56,61,148,81,43,5,77,117,16,67,118,66,36,99,69,10,42,58,9,35,7,39,108,116,101,48,47,33,127,53,82,41,62,90,103,28,38,144,34,120,140,80,70,123,126,147,44,50,68,31,111,115,72,75,13,2,78,73,104,74,40,95,86,52,88,51,32,63,109,84,71,79,110,112,85,46,37,93,89,91,83,3</tids>
 		<Kid sr="Kid">
 			<launchID>2</launchID>
 			<pkg>qmanager.neiru.com</pkg>
@@ -18,7 +18,7 @@
 	</Project>
 	<Scene sr="sceneDebug Menu">
 		<cdate>1696860318923</cdate>
-		<edate>1698221045890</edate>
+		<edate>1698441854663</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Debug Menu</nme>
@@ -818,7 +818,7 @@
 	</Scene>
 	<Scene sr="sceneЗагрузка">
 		<cdate>1695968577788</cdate>
-		<edate>1698317190631</edate>
+		<edate>1698449073545</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2168</heightPort>
 		<nme>Загрузка</nme>
@@ -1338,7 +1338,7 @@
 	</Scene>
 	<Scene sr="sceneКатегории">
 		<cdate>1695297890544</cdate>
-		<edate>1698318338045</edate>
+		<edate>1698449304657</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Категории</nme>
@@ -1370,30 +1370,6 @@
 		</RectElement>
 		<RectElement sr="elements10">
 			<flags>4</flags>
-			<geom>627,750,274,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle23</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements11">
-			<flags>4</flags>
-			<geom>452,450,299,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle211</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements12">
-			<flags>4</flags>
 			<geom>802,450,174,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle212</Str>
 			<Int sr="arg1" val="0"/>
@@ -1404,7 +1380,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements13" ve="3">
+		<TextElement sr="elements11" ve="3">
 			<clickTask>31</clickTask>
 			<flags>4</flags>
 			<geom>352,750,224,100,-1,-1,-1,-1</geom>
@@ -1418,7 +1394,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements14" ve="3">
+		<TextElement sr="elements12" ve="3">
 			<clickTask>32</clickTask>
 			<flags>4</flags>
 			<geom>77,450,324,100,-1,-1,-1,-1</geom>
@@ -1432,7 +1408,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements15" ve="3">
+		<TextElement sr="elements13" ve="3">
 			<clickTask>39</clickTask>
 			<flags>4</flags>
 			<geom>452,450,299,100,-1,-1,-1,-1</geom>
@@ -1446,7 +1422,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements16" ve="3">
+		<TextElement sr="elements14" ve="3">
 			<clickTask>41</clickTask>
 			<flags>4</flags>
 			<geom>802,450,174,100,-1,-1,-1,-1</geom>
@@ -1460,66 +1436,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements17" ve="3">
-			<geom>77,1150,899,75,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text51</Str>
-			<Str sr="arg1" ve="3">Совместимость с Google Disk</Str>
-			<Int sr="arg2" val="16"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements18" ve="3">
-			<geom>77,1225,899,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text211</Str>
-			<Str sr="arg1" ve="3">Установите Google Disk для прямого скачивания.</Str>
-			<Int sr="arg2" val="12"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Regular.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<RectElement sr="elements19">
-			<geom>77,1350,299,75,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle22</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements2">
-			<geom>27,1100,949,350,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle11</Str>
-			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">%my_accent1_1000</Str>
-			<Str sr="arg3" ve="3">%my_accent3_0</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements20" ve="3">
-			<clickTask>42</clickTask>
-			<geom>77,1275,299,50,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text411</Str>
-			<Str sr="arg1" ve="3">Скачать</Str>
-			<Int sr="arg2" val="12"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF828282</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<RectElement sr="elements21">
+		<RectElement sr="elements15">
 			<flags>4</flags>
 			<geom>102,925,874,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2111</Str>
@@ -1531,7 +1448,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements22" ve="3">
+		<TextElement sr="elements16" ve="3">
 			<clickTask>43</clickTask>
 			<flags>4</flags>
 			<geom>102,925,874,100,-1,-1,-1,-1</geom>
@@ -1557,7 +1474,7 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<RectElement sr="elements23">
+		<RectElement sr="elements17">
 			<flags>4</flags>
 			<geom>302,600,199,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2211</Str>
@@ -1569,7 +1486,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements24" ve="3">
+		<TextElement sr="elements18" ve="3">
 			<clickTask>47</clickTask>
 			<flags>4</flags>
 			<geom>302,600,199,100,-1,-1,-1,-1</geom>
@@ -1583,7 +1500,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements25">
+		<RectElement sr="elements19">
 			<flags>4</flags>
 			<geom>77,750,224,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2212</Str>
@@ -1595,7 +1512,19 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements26" ve="3">
+		<RectElement sr="elements2">
+			<flags>4</flags>
+			<geom>27,250,1025,800,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle12</Str>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3">%my_accent3_100</Str>
+			<Str sr="arg3" ve="3">%my_accent1_900</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements20" ve="3">
 			<clickTask>48</clickTask>
 			<flags>4</flags>
 			<geom>77,750,224,100,-1,-1,-1,-1</geom>
@@ -1609,7 +1538,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements27">
+		<RectElement sr="elements21">
 			<flags>4</flags>
 			<geom>552,600,199,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle221211</Str>
@@ -1621,7 +1550,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements28" ve="3">
+		<TextElement sr="elements22" ve="3">
 			<clickTask>50</clickTask>
 			<flags>4</flags>
 			<geom>552,600,199,100,-1,-1,-1,-1</geom>
@@ -1635,7 +1564,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements29">
+		<RectElement sr="elements23">
 			<flags>4</flags>
 			<geom>77,600,174,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2212111</Str>
@@ -1647,19 +1576,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements3">
-			<flags>4</flags>
-			<geom>27,250,1025,800,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle12</Str>
-			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">%my_accent3_100</Str>
-			<Str sr="arg3" ve="3">%my_accent1_900</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements30" ve="3">
+		<TextElement sr="elements24" ve="3">
 			<clickTask>52</clickTask>
 			<flags>4</flags>
 			<geom>77,600,174,100,-1,-1,-1,-1</geom>
@@ -1673,44 +1590,20 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements31" ve="3">
-			<geom>0,0,1077,50,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Без рекламы!</Str>
-			<Str sr="arg1" ve="3">Без рекламы!</Str>
-			<Int sr="arg2" val="24"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements32" ve="3">
-			<geom>3,0,1077,150,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Твой дом:&gt;</Str>
-			<Str sr="arg1" ve="3">Твой андроид дом:&gt;</Str>
-			<Int sr="arg2" val="24"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements33" ve="3">
+		<TextElement sr="elements25" ve="3">
 			<flags>4</flags>
-			<geom>2,150,1077,75,-1,-1,-1,-1</geom>
+			<geom>0,150,1077,75,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Name Version</Str>
 			<Str sr="arg1" ve="3">Kirara</Str>
 			<Int sr="arg2" val="15"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%my_accent1_700</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements34">
+		<RectElement sr="elements26">
 			<flags>4</flags>
 			<geom>27,250,1024,175,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle1511</Str>
@@ -1722,7 +1615,7 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements35">
+		<RectElement sr="elements27">
 			<flags>4</flags>
 			<geom>802,600,174,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2212112</Str>
@@ -1734,10 +1627,10 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements36">
+		<RectElement sr="elements28">
 			<flags>4</flags>
-			<geom>27,1225,1000,825,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle152</Str>
+			<geom>27,1100,1025,950,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Скрытие нажатий</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00333333</Str>
 			<Str sr="arg3" ve="3"/>
@@ -1746,7 +1639,7 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements37" ve="3">
+		<TextElement sr="elements29" ve="3">
 			<clickTask>28</clickTask>
 			<flags>4</flags>
 			<geom>802,600,174,100,-1,-1,-1,-1</geom>
@@ -1760,7 +1653,19 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements38" ve="3">
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>27,250,1025,800,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle15</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements30" ve="3">
 			<flags>4</flags>
 			<geom>77,1175,924,75,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Заголовок</Str>
@@ -1773,12 +1678,12 @@
 			<Int sr="arg7" val="2"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements39" ve="3">
+		<TextElement sr="elements31" ve="3">
 			<flags>4</flags>
-			<geom>77,1250,925,775,-1,-1,-1,-1</geom>
+			<geom>77,1250,925,875,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Текст Новости</Str>
 			<Str sr="arg1" ve="3">Получение информации..</Str>
-			<Int sr="arg2" val="12"/>
+			<Int sr="arg2" val="13"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Regular.ttf</Str>
@@ -1786,18 +1691,7 @@
 			<Int sr="arg7" val="2"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements4">
-			<geom>27,1125,850,325,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle151</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00333333</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<RectElement sr="elements40">
+		<RectElement sr="elements32">
 			<flags>4</flags>
 			<geom>927,2050,124,125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle19</Str>
@@ -1809,7 +1703,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<ImageElement sr="elements41" ve="2">
+		<ImageElement sr="elements33" ve="2">
 			<clickTask>61</clickTask>
 			<flags>4</flags>
 			<geom>952,2075,74,75,-1,-1,-1,-1</geom>
@@ -1820,13 +1714,13 @@
 			</Img>
 			<Int sr="arg2" val="255"/>
 		</ImageElement>
-		<RectElement sr="elements42">
+		<RectElement sr="elements34">
 			<clickTask>89</clickTask>
 			<flags>4</flags>
 			<geom>927,2050,124,125,-1,-1,-1,-1</geom>
 			<longclickTask>90</longclickTask>
 			<Str sr="arg0" ve="3">Rectangle20</Str>
-			<Int sr="arg1" val="0"/>
+			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">#00333333</Str>
 			<Str sr="arg3" ve="3"/>
 			<Int sr="arg4" val="0"/>
@@ -1834,40 +1728,19 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements43">
+		<RectElement sr="elements35">
 			<flags>4</flags>
 			<geom>502,2050,399,125,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle191</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FF858585</Str>
-			<Str sr="arg3" ve="3"/>
+			<Int sr="arg1" val="3"/>
+			<Str sr="arg2" ve="3">#FF9690FF</Str>
+			<Str sr="arg3" ve="3">#FF78FFD0</Str>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<ImageElement sr="elements44" ve="2">
-			<clickTask>94</clickTask>
-			<geom>77,1125,49,50,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Image2</Str>
-			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Download/free-icon-font-refresh.png</fle>
-			</Img>
-			<Int sr="arg2" val="255"/>
-		</ImageElement>
-		<TextElement sr="elements45" ve="3">
-			<geom>152,1125,874,50,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">data</Str>
-			<Str sr="arg1" ve="3">data last update %MyTime2</Str>
-			<Int sr="arg2" val="11"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<ImageElement sr="elements46" ve="2">
+		<ImageElement sr="elements36" ve="2">
 			<clickTask>103</clickTask>
 			<flags>4</flags>
 			<geom>527,2075,74,75,-1,-1,-1,-1</geom>
@@ -1878,7 +1751,7 @@
 			</Img>
 			<Int sr="arg2" val="255"/>
 		</ImageElement>
-		<TextElement sr="elements47" ve="3">
+		<TextElement sr="elements37" ve="3">
 			<clickTask>109</clickTask>
 			<flags>4</flags>
 			<geom>602,2050,274,125,-1,-1,-1,-1</geom>
@@ -1886,13 +1759,13 @@
 			<Str sr="arg1" ve="3">Лаборатория Функций</Str>
 			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF171717</Str>
+			<Str sr="arg4" ve="3">#FF262626</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements48">
+		<RectElement sr="elements38">
 			<clickTask>91</clickTask>
 			<flags>4</flags>
 			<geom>502,2050,399,125,-1,-1,-1,-1</geom>
@@ -1906,27 +1779,7 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<ImageElement sr="elements49" ve="2">
-			<geom>77,1950,74,75,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Image4</Str>
-			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Download/Kirara_Side_Icon.png</fle>
-			</Img>
-			<Int sr="arg2" val="255"/>
-		</ImageElement>
-		<RectElement sr="elements5">
-			<flags>4</flags>
-			<geom>27,250,1025,800,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle15</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00333333</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements50" ve="3">
+		<TextElement sr="elements39" ve="3">
 			<clickTask>126</clickTask>
 			<flags>4</flags>
 			<geom>627,750,274,100,-1,-1,-1,-1</geom>
@@ -1940,7 +1793,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements6" ve="3">
+		<TextElement sr="elements4" ve="3">
 			<clickTask>62</clickTask>
 			<flags>4</flags>
 			<geom>0,0,1077,200,-1,-1,-1,-1</geom>
@@ -1955,12 +1808,62 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements7" ve="3">
+		<SliderElement sr="elements40">
 			<flags>4</flags>
-			<geom>77,325,549,100,-1,-1,-1,-1</geom>
+			<geom>0,2050,501,125,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">11</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="100"/>
+			<Int sr="arg5" val="0"/>
+			<Img sr="arg6" ve="2">
+				<fle>/storage/emulated/0/Documents/pixelLab/20230929_093227.png</fle>
+			</Img>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</SliderElement>
+		<SliderElement sr="elements41">
+			<flags>4</flags>
+			<geom>0,2050,501,125,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">111</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="10"/>
+			<Int sr="arg5" val="0"/>
+			<Img sr="arg6" ve="2">
+				<fle>/storage/emulated/0/Documents/pixelLab/20230929_093227.png</fle>
+			</Img>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</SliderElement>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>77,325,599,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
 			<Str sr="arg1" ve="3">Выбери категорию</Str>
-			<Int sr="arg2" val="18"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
@@ -1968,7 +1871,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements8">
+		<RectElement sr="elements6">
 			<flags>4</flags>
 			<geom>352,750,224,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2</Str>
@@ -1980,10 +1883,34 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements9">
+		<RectElement sr="elements7">
 			<flags>4</flags>
 			<geom>77,450,324,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle21</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements8">
+			<flags>4</flags>
+			<geom>627,750,274,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle23</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<RectElement sr="elements9">
+			<flags>4</flags>
+			<geom>452,450,299,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle211</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg3" ve="3"/>
@@ -2005,7 +1932,7 @@
 	</Scene>
 	<Scene sr="sceneКино">
 		<cdate>1695297890544</cdate>
-		<edate>1697787517040</edate>
+		<edate>1698357313169</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Кино</nme>
@@ -2037,147 +1964,6 @@
 			<Int sr="arg7" val="0"/>
 		</RectElement>
 		<TextElement sr="elements10" ve="3">
-			<geom>102,1425,599,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text511</Str>
-			<Str sr="arg1" ve="3">Telegram модификации</Str>
-			<Int sr="arg2" val="18"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<ListElement sr="elements11">
-			<geom>277,1550,752,350,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Menu1</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Scene sr="arg4">
-				<Scene sr="val">
-					<cdate>1695375536015</cdate>
-					<edate>1695375536015</edate>
-					<heightLand>-1</heightLand>
-					<heightPort>135</heightPort>
-					<nme>Builtin Item Layout</nme>
-					<widthLand>-1</widthLand>
-					<widthPort>1080</widthPort>
-					<ImageElement sr="elements0" ve="2">
-						<flags>1</flags>
-						<geom>573,0,153,135,-1,-1,-1,-1</geom>
-						<Str sr="arg0" ve="3">Icon</Str>
-						<Img sr="arg1" ve="2">
-							<nme>hd_aaa_ext_tiles_small</nme>
-						</Img>
-						<Int sr="arg2" val="255"/>
-					</ImageElement>
-					<TextElement sr="elements1" ve="3">
-						<flags>1</flags>
-						<geom>15,0,81,135,-1,-1,-1,-1</geom>
-						<Str sr="arg0" ve="3">Index</Str>
-						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="24"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="0"/>
-						<Int sr="arg7"/>
-						<Int sr="arg8"/>
-					</TextElement>
-					<RectElement sr="elements2">
-						<flags>4</flags>
-						<geom>0,0,649,100,-1,-1,-1,-1</geom>
-						<Str sr="arg0" ve="3">Rectangle2111</Str>
-						<Int sr="arg1" val="0"/>
-						<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg3" ve="3"/>
-						<Int sr="arg4" val="0"/>
-						<Str sr="arg5" ve="3">#FF000000</Str>
-						<Int sr="arg6" val="30"/>
-						<Int sr="arg7" val="0"/>
-					</RectElement>
-					<TextElement sr="elements3" ve="3">
-						<flags>5</flags>
-						<geom>0,30,701,105,-1,-1,-1,-1</geom>
-						<Str sr="arg0" ve="3">Label</Str>
-						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="12"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FF828282</Str>
-						<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-						<Int sr="arg6" val="1"/>
-						<Int sr="arg7" val="2"/>
-						<Int sr="arg8" val="0"/>
-					</TextElement>
-					<PropertiesElement sr="props">
-						<Int sr="arg0" val="1"/>
-						<Int sr="arg1" val="0"/>
-						<Str sr="arg2" ve="3">#00000000</Str>
-						<Int sr="arg3" val="0"/>
-						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
-						<Str sr="arg5" ve="3"/>
-						<Img sr="arg6" ve="2"/>
-						<Str sr="arg7" ve="3"/>
-					</PropertiesElement>
-				</Scene>
-			</Scene>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="1"/>
-			<ListElementItem sr="item0">
-				<label>Nekogram</label>
-				<Action sr="action" ve="7">
-					<code>104</code>
-					<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=tw.nekomimi.nekogram</Str>
-					<App sr="arg1"/>
-					<Int sr="arg2" val="0"/>
-					<Str sr="arg3" ve="3"/>
-				</Action>
-			</ListElementItem>
-			<ListElementItem sr="item1">
-				<label>Telegram X</label>
-				<Action sr="action" ve="7">
-					<code>104</code>
-					<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=org.thunderdog.challegram</Str>
-					<App sr="arg1"/>
-					<Int sr="arg2" val="0"/>
-					<Str sr="arg3" ve="3"/>
-				</Action>
-			</ListElementItem>
-			<ListElementItem sr="item2">
-				<label>BGram</label>
-				<Action sr="action" ve="7">
-					<code>104</code>
-					<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=org.telegram.BifToGram</Str>
-					<App sr="arg1"/>
-					<Int sr="arg2" val="0"/>
-					<Str sr="arg3" ve="3"/>
-				</Action>
-			</ListElementItem>
-			<ListElementItem sr="item3">
-				<label>Telegraph</label>
-				<Action sr="action" ve="7">
-					<code>104</code>
-					<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=ir.ilmili.telegraph</Str>
-					<App sr="arg1"/>
-					<Int sr="arg2" val="0"/>
-					<Str sr="arg3" ve="3"/>
-				</Action>
-			</ListElementItem>
-		</ListElement>
-		<RectElement sr="elements12">
-			<flags>4</flags>
-			<geom>352,975,324,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle2111</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements13" ve="3">
 			<clickTask>147</clickTask>
 			<flags>4</flags>
 			<geom>352,975,324,100,-1,-1,-1,-1</geom>
@@ -2191,7 +1977,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements14">
+		<RectElement sr="elements11">
 			<flags>4</flags>
 			<geom>377,450,374,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle212</Str>
@@ -2203,12 +1989,12 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements15" ve="3">
+		<TextElement sr="elements12" ve="3">
 			<clickTask>9</clickTask>
 			<flags>4</flags>
 			<geom>377,450,374,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text422</Str>
-			<Str sr="arg1" ve="3">Получить зеркала</Str>
+			<Str sr="arg1" ve="3">Обновить зеркала</Str>
 			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FF828282</Str>
@@ -2229,7 +2015,7 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<RectElement sr="elements16">
+		<RectElement sr="elements13">
 			<flags>4</flags>
 			<geom>27,1175,1025,325,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle112</Str>
@@ -2241,7 +2027,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements17" ve="3">
+		<TextElement sr="elements14" ve="3">
 			<flags>4</flags>
 			<geom>77,1250,549,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text512</Str>
@@ -2254,7 +2040,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements18">
+		<RectElement sr="elements15">
 			<flags>4</flags>
 			<geom>77,575,399,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle215</Str>
@@ -2266,7 +2052,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements19">
+		<RectElement sr="elements16">
 			<flags>4</flags>
 			<geom>77,1375,249,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle213</Str>
@@ -2278,20 +2064,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements2" ve="3">
-			<flags>4</flags>
-			<geom>77,325,549,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text5</Str>
-			<Str sr="arg1" ve="3">KinoPub</Str>
-			<Int sr="arg2" val="18"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements20" ve="3">
+		<TextElement sr="elements17" ve="3">
 			<clickTask>13</clickTask>
 			<flags>4</flags>
 			<geom>77,1375,249,100,-1,-1,-1,-1</geom>
@@ -2317,7 +2090,7 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<RectElement sr="elements21">
+		<RectElement sr="elements18">
 			<flags>4</flags>
 			<geom>502,575,374,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2151</Str>
@@ -2329,7 +2102,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements22">
+		<RectElement sr="elements19">
 			<flags>4</flags>
 			<geom>352,1375,374,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle214</Str>
@@ -2341,12 +2114,25 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements23" ve="3">
+		<TextElement sr="elements2" ve="3">
+			<flags>4</flags>
+			<geom>77,325,549,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text5</Str>
+			<Str sr="arg1" ve="3">KinoPub</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<TextElement sr="elements20" ve="3">
 			<clickTask>16</clickTask>
 			<flags>4</flags>
 			<geom>352,1375,374,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text4221</Str>
-			<Str sr="arg1" ve="3">Получить зеркала</Str>
+			<Str sr="arg1" ve="3">Обновить зеркала</Str>
 			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FF828282</Str>
@@ -2367,7 +2153,7 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<TextElement sr="elements24" ve="3">
+		<TextElement sr="elements21" ve="3">
 			<clickTask>7</clickTask>
 			<flags>4</flags>
 			<geom>77,575,399,100,-1,-1,-1,-1</geom>
@@ -2393,7 +2179,7 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<TextElement sr="elements25" ve="3">
+		<TextElement sr="elements22" ve="3">
 			<clickTask>99</clickTask>
 			<flags>4</flags>
 			<geom>502,575,374,100,-1,-1,-1,-1</geom>
@@ -2509,11 +2295,12 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<RectElement sr="elements9">
-			<geom>27,1350,1025,600,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle111</Str>
-			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">#FF67E4F0</Str>
-			<Str sr="arg3" ve="3">#FF7871FF</Str>
+			<flags>4</flags>
+			<geom>352,975,324,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle2111</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
 			<Int sr="arg4" val="0"/>
 			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="30"/>
@@ -2647,7 +2434,7 @@
 	</Scene>
 	<Scene sr="sceneЛаборатория Функций beta">
 		<cdate>1695297890544</cdate>
-		<edate>1697804486530</edate>
+		<edate>1698338268331</edate>
 		<gridSize>0</gridSize>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
@@ -3826,7 +3613,7 @@
 	</Scene>
 	<Scene sr="sceneНовая версия!">
 		<cdate>1695297890544</cdate>
-		<edate>1698317197044</edate>
+		<edate>1698337256299</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Новая версия!</nme>
@@ -3874,7 +3661,7 @@
 			<geom>52,225,974,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
 			<Str sr="arg1" ve="3">Изменения v%versionupdate</Str>
-			<Int sr="arg2" val="18"/>
+			<Int sr="arg2" val="22"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
@@ -3913,7 +3700,7 @@
 			<geom>52,325,974,900,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text51</Str>
 			<Str sr="arg1" ve="3">%changelogs</Str>
-			<Int sr="arg2" val="14"/>
+			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
@@ -3960,7 +3747,7 @@
 	</Scene>
 	<Scene sr="sceneО приложении">
 		<cdate>1695297890544</cdate>
-		<edate>1698320609780</edate>
+		<edate>1698749962899</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>О приложении</nme>
@@ -3980,8 +3767,8 @@
 		</RectElement>
 		<RectElement sr="elements1">
 			<flags>4</flags>
-			<geom>27,250,1024,1125,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<geom>27,250,1024,1000,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Background</Str>
 			<Int sr="arg1" val="3"/>
 			<Str sr="arg2" ve="3">#FF8BD9FF</Str>
 			<Str sr="arg3" ve="3">#FF878787</Str>
@@ -4029,7 +3816,7 @@
 		<TextElement sr="elements13" ve="3">
 			<clickTask>119</clickTask>
 			<flags>4</flags>
-			<geom>77,1100,874,100,-1,-1,-1,-1</geom>
+			<geom>77,1100,924,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text41111</Str>
 			<Str sr="arg1" ve="3">Проверить обновления</Str>
 			<Int sr="arg2" val="12"/>
@@ -4204,6 +3991,17 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
+		<RectElement sr="elements26">
+			<geom>77,1500,725,50,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle12</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#686A6A6A</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
 			<geom>0,0,1077,200,-1,-1,-1,-1</geom>
@@ -4245,7 +4043,7 @@
 		<RectElement sr="elements6">
 			<flags>4</flags>
 			<geom>77,1225,924,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle2</Str>
+			<Str sr="arg0" ve="3">Pre Release Background</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg3" ve="3"/>
@@ -4257,8 +4055,8 @@
 		<TextElement sr="elements7" ve="3">
 			<clickTask>115</clickTask>
 			<flags>4</flags>
-			<geom>77,1225,924,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text41</Str>
+			<geom>77,1225,925,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Pre Release Text</Str>
 			<Str sr="arg1" ve="3">Получить Pre-Release версию</Str>
 			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
@@ -4288,7 +4086,7 @@
 			<longclickTask>149</longclickTask>
 			<Str sr="arg0" ve="3">Image1</Str>
 			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Documents/pixelLab/20231026_144226.png</fle>
+				<fle>/storage/emulated/0/Documents/pixelLab/20231031_135135.png</fle>
 			</Img>
 			<Int sr="arg2" val="227"/>
 			<RectElement sr="background">
@@ -4317,7 +4115,7 @@
 	</Scene>
 	<Scene sr="sceneРазвлечения">
 		<cdate>1695297890544</cdate>
-		<edate>1698317202110</edate>
+		<edate>1698749325046</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Развлечения</nme>
@@ -4325,7 +4123,7 @@
 		<widthPort>1080</widthPort>
 		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>2,0,1077,225,-1,-1,-1,-1</geom>
+			<geom>3,0,1077,225,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text1</Str>
 			<Str sr="arg1" ve="3">Развлечения</Str>
 			<Int sr="arg2" val="24"/>
@@ -4351,7 +4149,7 @@
 		<TextElement sr="elements10" ve="3">
 			<clickTask>75</clickTask>
 			<flags>4</flags>
-			<geom>77,600,649,100,-1,-1,-1,-1</geom>
+			<geom>77,600,499,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text42</Str>
 			<Str sr="arg1" ve="3">Скачать последнюю версию</Str>
 			<Int sr="arg2" val="12"/>
@@ -4377,7 +4175,7 @@
 		<TextElement sr="elements11" ve="3">
 			<clickTask>76</clickTask>
 			<flags>4</flags>
-			<geom>102,1275,474,100,-1,-1,-1,-1</geom>
+			<geom>102,1275,299,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text421</Str>
 			<Str sr="arg1" ve="3">Скачать</Str>
 			<Int sr="arg2" val="12"/>
@@ -4391,7 +4189,7 @@
 		<TextElement sr="elements12" ve="3">
 			<clickTask>77</clickTask>
 			<flags>4</flags>
-			<geom>77,725,649,100,-1,-1,-1,-1</geom>
+			<geom>77,725,499,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text422</Str>
 			<Str sr="arg1" ve="3">MicroG последняя версия</Str>
 			<Int sr="arg2" val="12"/>
@@ -4442,7 +4240,7 @@
 		</TextElement>
 		<RectElement sr="elements14">
 			<flags>4</flags>
-			<geom>102,1400,474,100,-1,-1,-1,-1</geom>
+			<geom>102,1400,299,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2111</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4455,7 +4253,7 @@
 		<TextElement sr="elements15" ve="3">
 			<clickTask>81</clickTask>
 			<flags>4</flags>
-			<geom>102,1400,474,100,-1,-1,-1,-1</geom>
+			<geom>102,1400,299,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text4211</Str>
 			<Str sr="arg1" ve="3">Скачать Plugin</Str>
 			<Int sr="arg2" val="12"/>
@@ -4520,7 +4318,7 @@
 		</TextElement>
 		<RectElement sr="elements19">
 			<flags>4</flags>
-			<geom>102,1825,649,100,-1,-1,-1,-1</geom>
+			<geom>102,1875,274,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2121</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4546,7 +4344,7 @@
 		<TextElement sr="elements20" ve="3">
 			<clickTask>86</clickTask>
 			<flags>4</flags>
-			<geom>102,1825,649,100,-1,-1,-1,-1</geom>
+			<geom>102,1875,274,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text4212</Str>
 			<Str sr="arg1" ve="3">Перейти</Str>
 			<Int sr="arg2" val="12"/>
@@ -4605,34 +4403,73 @@
 			<Int sr="arg7" val="0"/>
 		</RectElement>
 		<TextElement sr="elements25" ve="3">
-			<geom>652,1275,299,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text5221</Str>
-			<Str sr="arg1" ve="3">INSTALLED 
-%app_version_label(4)</Str>
+			<flags>4</flags>
+			<geom>102,1775,924,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text5211</Str>
+			<Str sr="arg1" ve="3">Модифицированный инстаграм (запрещен в РФ)</Str>
 			<Int sr="arg2" val="11"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
+			<Int sr="arg6" val="5"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<RectElement sr="elements26">
+			<flags>4</flags>
+			<geom>452,1275,399,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle2112</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements27" ve="3">
+			<clickTask>42</clickTask>
+			<flags>4</flags>
+			<geom>452,1275,399,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text4213</Str>
+			<Str sr="arg1" ve="3">Скачать CapCut Mod</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF828282</Str>
+			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
+			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements26" ve="3">
-			<geom>652,1400,299,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text5222</Str>
-			<Str sr="arg1" ve="3">INSTALLED 
-%app_version_label(5)</Str>
-			<Int sr="arg2" val="11"/>
+		<RectElement sr="elements28">
+			<flags>4</flags>
+			<geom>452,1400,399,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle2113</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<TextElement sr="elements29" ve="3">
+			<clickTask>94</clickTask>
+			<flags>4</flags>
+			<geom>452,1400,399,100,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text4214</Str>
+			<Str sr="arg1" ve="3">Приватный мод TikTok</Str>
+			<Int sr="arg2" val="12"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg4" ve="3">#FF828282</Str>
 			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
+			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<RectElement sr="elements3">
 			<flags>4</flags>
-			<geom>77,725,649,100,-1,-1,-1,-1</geom>
+			<geom>77,725,499,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle21</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4644,7 +4481,7 @@
 		</RectElement>
 		<TextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>77,425,949,175,-1,-1,-1,-1</geom>
+			<geom>77,400,949,200,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text52</Str>
 			<Str sr="arg1" ve="3">Ютуб в котором нет рекламы🙂, абсолютно, даже встроенные в само видео, а так же в нем есть и остальные полезные функции.</Str>
 			<Int sr="arg2" val="11"/>
@@ -4669,7 +4506,7 @@
 		</RectElement>
 		<RectElement sr="elements6">
 			<flags>4</flags>
-			<geom>77,600,649,100,-1,-1,-1,-1</geom>
+			<geom>77,600,499,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle212</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4681,9 +4518,9 @@
 		</RectElement>
 		<TextElement sr="elements7" ve="3">
 			<flags>4</flags>
-			<geom>102,1025,549,100,-1,-1,-1,-1</geom>
+			<geom>102,1025,699,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text51</Str>
-			<Str sr="arg1" ve="3">TikTok Mod</Str>
+			<Str sr="arg1" ve="3">TikTok Mod + CupCut Mod</Str>
 			<Int sr="arg2" val="18"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -4694,7 +4531,7 @@
 		</TextElement>
 		<TextElement sr="elements8" ve="3">
 			<flags>4</flags>
-			<geom>102,1125,774,150,-1,-1,-1,-1</geom>
+			<geom>102,1100,924,175,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text521</Str>
 			<Str sr="arg1" ve="3">TikTok+TikTok Plugin предоставленный без назойливых рекламных ссылок которые захламляют телеграм рекламными каналами на которые нужно подписаться. Скачанные с оффициального канала!</Str>
 			<Int sr="arg2" val="11"/>
@@ -4707,7 +4544,7 @@
 		</TextElement>
 		<RectElement sr="elements9">
 			<flags>4</flags>
-			<geom>102,1275,474,100,-1,-1,-1,-1</geom>
+			<geom>102,1275,299,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle211</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
@@ -4730,7 +4567,7 @@
 	</Scene>
 	<Scene sr="sceneРазвлечения 2">
 		<cdate>1695297890544</cdate>
-		<edate>1698220856303</edate>
+		<edate>1698748669075</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Развлечения 2</nme>
@@ -5157,28 +4994,17 @@
 	</Scene>
 	<Scene sr="sceneТуториалы">
 		<cdate>1695297890544</cdate>
-		<edate>1698319051325</edate>
+		<edate>1698338258518</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Туториалы</nme>
 		<widthLand>-1</widthLand>
 		<widthPort>1080</widthPort>
-		<RectElement sr="elements0">
-			<geom>27,925,1025,375,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle11</Str>
-			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">#FFF0C167</Str>
-			<Str sr="arg3" ve="3">#FFFFDF71</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements1" ve="3">
+		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
 			<geom>0,0,1077,200,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text1</Str>
-			<Str sr="arg1" ve="3">Root Tutorials</Str>
+			<Str sr="arg1" ve="3">ROOT Tutorials</Str>
 			<Int sr="arg2" val="24"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -5187,131 +5013,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements10">
-			<geom>102,1150,324,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle22</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements11" ve="3">
-			<clickTask>124</clickTask>
-			<flags>8</flags>
-			<geom>102,1250,324,50,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text411</Str>
-			<Str sr="arg1" ve="3">Скачать</Str>
-			<Int sr="arg2" val="12"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF828282</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<RectElement sr="elements12">
-			<geom>27,1350,1025,425,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle111</Str>
-			<Int sr="arg1" val="3"/>
-			<Str sr="arg2" ve="3">#FF6795F0</Str>
-			<Str sr="arg3" ve="3">#FF71FF80</Str>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements13" ve="3">
-			<geom>102,1425,724,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text511</Str>
-			<Str sr="arg1" ve="3">Lucky Patcher (Установщик)</Str>
-			<Int sr="arg2" val="18"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<RectElement sr="elements14">
-			<geom>102,1625,324,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle221</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements15" ve="3">
-			<clickTask>125</clickTask>
-			<geom>102,1675,600,50,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text4111</Str>
-			<Str sr="arg1" ve="3">Скачать</Str>
-			<Int sr="arg2" val="12"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF828282</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements16" ve="3">
-			<geom>752,625,249,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text522</Str>
-			<Str sr="arg1" ve="3">INSTALLED 
-%app_version_label</Str>
-			<Int sr="arg2" val="11"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements17" ve="3">
-			<geom>752,1050,249,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text5221</Str>
-			<Str sr="arg1" ve="3">INSTALLED 
-%app_version_label(2)</Str>
-			<Int sr="arg2" val="11"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements18" ve="3">
-			<geom>102,1500,924,125,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text5211</Str>
-			<Str sr="arg1" ve="3">Очень полезная штука с пользовательскими патчами, для взлома покупок в приложениях/играх и т.д. Особенно с ROOT-правами.</Str>
-			<Int sr="arg2" val="11"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="5"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements19" ve="3">
-			<flags>4</flags>
-			<geom>102,425,899,175,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text523</Str>
-			<Str sr="arg1" ve="3">Так, вы поставили рут права, но Mir Pay не работает. Что же делать?
-В этой статье я покажу пошагово как обойти ошибку Mir Pay.</Str>
-			<Int sr="arg2" val="11"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="5"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<RectElement sr="elements2">
+		<RectElement sr="elements1">
 			<flags>4</flags>
 			<geom>27,250,1025,500,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle1</Str>
@@ -5323,7 +5025,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<TextElement sr="elements3" ve="3">
+		<TextElement sr="elements2" ve="3">
 			<flags>4</flags>
 			<geom>102,325,549,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
@@ -5336,7 +5038,7 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<RectElement sr="elements4">
+		<RectElement sr="elements3">
 			<flags>4</flags>
 			<geom>102,600,299,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Rectangle2</Str>
@@ -5348,31 +5050,7 @@
 			<Int sr="arg6" val="30"/>
 			<Int sr="arg7" val="0"/>
 		</RectElement>
-		<RectElement sr="elements5">
-			<geom>102,725,574,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle21</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements6" ve="3">
-			<clickTask>114</clickTask>
-			<geom>477,900,402,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text41</Str>
-			<Str sr="arg1" ve="3">Скачать для Recovery &gt; Magisk.zip</Str>
-			<Int sr="arg2" val="12"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF828282</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements7" ve="3">
+		<TextElement sr="elements4" ve="3">
 			<clickTask>123</clickTask>
 			<flags>4</flags>
 			<geom>102,600,299,100,-1,-1,-1,-1</geom>
@@ -5386,22 +5064,12 @@
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</TextElement>
-		<TextElement sr="elements8" ve="3">
-			<geom>102,975,599,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text51</Str>
-			<Str sr="arg1" ve="3">Mi Fintes (France mode)</Str>
-			<Int sr="arg2" val="18"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3">Download/google-sans/GoogleSans-Bold.ttf</Str>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<TextElement sr="elements9" ve="3">
-			<geom>102,1050,949,100,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text521</Str>
-			<Str sr="arg1" ve="3">Утилита для Mi Band 7 Pro + 8 Pro с некоторыми дополрительными функциями мода.</Str>
+		<TextElement sr="elements5" ve="3">
+			<flags>4</flags>
+			<geom>102,425,899,175,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Text523</Str>
+			<Str sr="arg1" ve="3">Так, вы поставили рут права, но Mir Pay не работает. Что же делать?
+В этой статье я покажу пошагово как обойти ошибку Mir Pay.</Str>
 			<Int sr="arg2" val="11"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
@@ -5705,7 +5373,7 @@
 	</Scene>
 	<Task sr="task10">
 		<cdate>1695301644424</cdate>
-		<edate>1697802057078</edate>
+		<edate>1698352402488</edate>
 		<id>10</id>
 		<nme>OTA Download</nme>
 		<pri>100</pri>
@@ -5911,7 +5579,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task110">
 		<cdate>1697748575356</cdate>
-		<edate>1697750087633</edate>
+		<edate>1698449482990</edate>
 		<id>110</id>
 		<nme>Анимация лаборатории</nme>
 		<pri>100</pri>
@@ -6079,19 +5747,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg3" ve="3"/>
 		</Action>
 	</Task>
-	<Task sr="task114">
-		<cdate>1695328362083</cdate>
-		<edate>1695328362083</edate>
-		<id>114</id>
-		<pri>104</pri>
-		<Action sr="act0" ve="7">
-			<code>104</code>
-			<Str sr="arg0" ve="3">https://kurl.ru/tVnqx</Str>
-			<App sr="arg1"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-	</Task>
 	<Task sr="task115">
 		<cdate>1695328362083</cdate>
 		<edate>1695328362083</edate>
@@ -6099,8 +5754,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Nightly OTA</Str>
+			<Str sr="arg0" ve="3">Nightly OTA Download</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -6136,6 +5790,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>104</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">https://github.com/neiruscd/qmanager/releases</Str>
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
@@ -6144,9 +5799,9 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task116">
 		<cdate>1695384898288</cdate>
-		<edate>1697149582705</edate>
+		<edate>1698448477017</edate>
 		<id>116</id>
-		<nme>О проекте HackStore</nme>
+		<nme>О приложении</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -6216,6 +5871,38 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">О приложении</Str>
+			<Str sr="arg1" ve="3">Pre Release Text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">О приложении</Str>
+			<Str sr="arg1" ve="3">Pre Release Background</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Pre-release OTA</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>65</code>
@@ -6348,7 +6035,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task118">
 		<cdate>1697800113283</cdate>
-		<edate>1697803765531</edate>
+		<edate>1698449485928</edate>
 		<id>118</id>
 		<nme>test</nme>
 		<pri>100</pri>
@@ -6458,7 +6145,7 @@ List of local paths for the downloaded files&lt;/_array_net.dinglisch.android.ta
 	</Task>
 	<Task sr="task120">
 		<cdate>1695300920170</cdate>
-		<edate>1697149681487</edate>
+		<edate>1698338537594</edate>
 		<id>120</id>
 		<nme>Nightly OTA</nme>
 		<pri>100</pri>
@@ -6786,7 +6473,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task122">
 		<cdate>1695388089977</cdate>
-		<edate>1697803937981</edate>
+		<edate>1698338358513</edate>
 		<id>122</id>
 		<nme>Nightly OTA Download</nme>
 		<Action sr="act0" ve="7">
@@ -6868,32 +6555,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task124">
-		<cdate>1695328362083</cdate>
-		<edate>1695328362083</edate>
-		<id>124</id>
-		<pri>104</pri>
-		<Action sr="act0" ve="7">
-			<code>104</code>
-			<Str sr="arg0" ve="3">https://kurl.ru/pPBvt</Str>
-			<App sr="arg1"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-	</Task>
-	<Task sr="task125">
-		<cdate>1695328362083</cdate>
-		<edate>1695328362083</edate>
-		<id>125</id>
-		<pri>104</pri>
-		<Action sr="act0" ve="7">
-			<code>104</code>
-			<Str sr="arg0" ve="3">https://kurl.ru/AdTyA</Str>
-			<App sr="arg1"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task126">
@@ -7009,6 +6670,178 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<Int sr="arg7" val="1"/>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task127">
+		<cdate>1695300920170</cdate>
+		<edate>1698352472251</edate>
+		<id>127</id>
+		<nme>Pre-release OTA</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_apk
+APK File
+The full path to the APK of the app. You can use the Copy File action to copy it somewhere and rename it if you like.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_uid
+APK File
+The kernel user-ID that has been assigned to this application; currently this is not a unique ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_activity_classes()
+Activity Classes
+The class names of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%app_activity_enabled()
+Activity Enabled
+For each activity, true if enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%app_activity_exported()
+Activity Exported
+For each activity, true if exported, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%app_activity_labels()
+Activity Labels
+The name of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%app_enabled
+Enabled
+true if app is enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%app_install_time
+First Install Time
+Time in seconds since EPOCH that app was first installed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%app_installer_package
+Installer Package Name
+Package name for the app that installed this app. Can be used to check if app was installed from Google Play.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%app_is_default_launcher
+Is Default Launcher
+true if the app is the current launcher in use, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%app_is_launcher
+Is Launcher
+true if the app is a launcher app, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%app_update_time
+Last Update Time
+Time in seconds since EPOCH that app was last updated&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%app_min_sdk
+Minimum SDK
+Minimum SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%app_version_code
+Package Version
+The version of the app in code format (a number)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%app_version_label
+Package Version Label
+The version of the app as you usually see it&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%app_permissions()
+Permissions
+Permissions the app requests.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%app_permissions_granted()
+Permissions Granted
+Corresponds to the %permissions array. true or false depending if the permission has been granted or not.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%app_apk_public_source_dirs()
+Public Source Directories
+Full path to the publicly available parts of splitSourceDirs, including resources and manifest.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%app_target_sdk
+Target SDK
+Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">qmanager.neiru.com</Str>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>339</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">https://raw.githubusercontent.com/neiruscd/hackstore/main/nightly.txt</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">QManager/Files/OTA</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">QManager/Files/OTA/nightly.txt</Str>
+			<Str sr="arg1" ve="3">%nightly</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>51</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">О приложении</Str>
+			<Str sr="arg1" ve="3">Text511</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Найдена новая сборка %nightly</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_version_code</lhs>
+					<op>6</op>
+					<rhs>%nightly</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">О приложении</Str>
+			<Str sr="arg1" ve="3">Pre Release Text</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_version_code</lhs>
+					<op>6</op>
+					<rhs>%nightly</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">О приложении</Str>
+			<Str sr="arg1" ve="3">Pre Release Background</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_version_code</lhs>
+					<op>6</op>
+					<rhs>%nightly</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>58</code>
+			<Str sr="arg0" ve="3">О приложении</Str>
+			<Str sr="arg1" ve="3">Background</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3">
+				<var>1024</var>
+			</Int>
+			<Int sr="arg4">
+				<var>1125</var>
+			</Int>
+			<Int sr="arg5" val="1201"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_version_code</lhs>
+					<op>6</op>
+					<rhs>%nightly</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Pre-release OTA</Str>
 		</Action>
 	</Task>
 	<Task sr="task13">
@@ -7200,7 +7033,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task2">
 		<cdate>1695297951336</cdate>
-		<edate>1698320495305</edate>
+		<edate>1698749375469</edate>
 		<id>2</id>
 		<nme>QManager</nme>
 		<pri>100</pri>
@@ -7210,8 +7043,8 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>qmanager.neiru.com</pkg>
 			<vMin>23</vMin>
 			<vTarg>29</vTarg>
-			<vnme>5.2</vnme>
-			<vnum>205</vnum>
+			<vnme>5.3</vnme>
+			<vnum>213</vnum>
 		</Kid>
 		<Action sr="act0" ve="7">
 			<code>397</code>
@@ -8047,7 +7880,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task37">
 		<cdate>1695300920170</cdate>
-		<edate>1697149711900</edate>
+		<edate>1698338507327</edate>
 		<id>37</id>
 		<nme>Nightly OTA Check</nme>
 		<pri>100</pri>
@@ -8528,7 +8361,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task4">
 		<cdate>1695300920170</cdate>
-		<edate>1697186332788</edate>
+		<edate>1698351492774</edate>
 		<id>4</id>
 		<nme>OTA</nme>
 		<pri>100</pri>
@@ -8948,10 +8781,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<cdate>1695328362083</cdate>
 		<edate>1695328362083</edate>
 		<id>42</id>
-		<pri>102</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>104</code>
-			<Str sr="arg0" ve="3">https://play.google.com/store/apps/details?id=com.google.android.apps.docs</Str>
+			<Str sr="arg0" ve="3">https://kurl.ru/ZtNhl</Str>
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
@@ -8978,7 +8811,7 @@ android.permission.PACKAGE_USAGE_STATS</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">О проекте HackStore</Str>
+			<Str sr="arg0" ve="3">О приложении</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -9721,7 +9554,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task82">
 		<cdate>1695370065040</cdate>
-		<edate>1698318985121</edate>
+		<edate>1698448839925</edate>
 		<id>82</id>
 		<nme>Страница обновлений</nme>
 		<pri>100</pri>
@@ -9826,11 +9659,102 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task85">
 		<cdate>1697062505469</cdate>
-		<edate>1697150173417</edate>
+		<edate>1698449511659</edate>
 		<id>85</id>
 		<nme>Борда новостей</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">11</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Загрузка &gt;&gt;&gt; [10%]</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Загрузка &gt;&gt;&gt; [55%]</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/size1.txt</Str>
+			<Str sr="arg1" ve="3">2</Str>
+			<Str sr="arg2" ve="3">%size2</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Загрузка &gt;&gt;&gt; [70%]</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">QManager/Files/news1.txt</Str>
+			<Str sr="arg1" ve="3">%news1</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Загрузка &gt;&gt;&gt; [90%]</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">111</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">11</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">QManager/Files/news.txt</Str>
+			<Str sr="arg1" ve="3">%news</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Информация получена &gt;&gt;&gt; [100%]</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Заголовок</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%news1</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>339</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -9861,7 +9785,98 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act20" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%news</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>58</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Скрытие нажатий</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3">
+				<var>%size1</var>
+			</Int>
+			<Int sr="arg4">
+				<var>%size2</var>
+			</Int>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>58</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">News11</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3">
+				<var>%size1</var>
+			</Int>
+			<Int sr="arg4">
+				<var>%size2</var>
+			</Int>
+			<Int sr="arg5" val="1962"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Disable Tasker</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">News11</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">News11</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">11</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="364"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">111</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>51</code>
+			<Str sr="arg0" ve="3">Категории</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Загрузка &gt;&gt;&gt; [20%]</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>339</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -9892,40 +9907,15 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Disable Tasker</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>65</code>
+		<Action sr="act6" ve="7">
+			<code>51</code>
 			<Str sr="arg0" ve="3">Категории</Str>
-			<Str sr="arg1" ve="3">News11</Str>
+			<Str sr="arg1" ve="3">Текст Новости</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<Str sr="arg3" ve="3">Загрузка &gt;&gt;&gt; [30%]</Str>
+			<Str sr="arg4" ve="3"/>
 		</Action>
-		<Action sr="act12" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">Категории</Str>
-			<Str sr="arg1" ve="3">News11</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act7" ve="7">
 			<code>339</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -9956,60 +9946,20 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/size1.txt</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Str sr="arg2" ve="3">%size1</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/size1.txt</Str>
-			<Str sr="arg1" ve="3">2</Str>
-			<Str sr="arg2" ve="3">%size2</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>417</code>
-			<Str sr="arg0" ve="3">QManager/Files/news1.txt</Str>
-			<Str sr="arg1" ve="3">%news1</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>417</code>
-			<Str sr="arg0" ve="3">QManager/Files/news.txt</Str>
-			<Str sr="arg1" ve="3">%news</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>51</code>
-			<Str sr="arg0" ve="3">Категории</Str>
-			<Str sr="arg1" ve="3">Заголовок</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%news1</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
 		<Action sr="act8" ve="7">
 			<code>51</code>
 			<Str sr="arg0" ve="3">Категории</Str>
 			<Str sr="arg1" ve="3">Текст Новости</Str>
 			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%news</Str>
+			<Str sr="arg3" ve="3">Загрузка &gt;&gt;&gt; [40%]</Str>
 			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>58</code>
-			<Str sr="arg0" ve="3">Категории</Str>
-			<Str sr="arg1" ve="3">News11</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3">
-				<var>%size1</var>
-			</Int>
-			<Int sr="arg4">
-				<var>%size2</var>
-			</Int>
-			<Int sr="arg5" val="1962"/>
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/size1.txt</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg2" ve="3">%size1</Str>
+			<Int sr="arg3" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task86">
@@ -10190,7 +10140,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task93">
 		<cdate>1697062505469</cdate>
-		<edate>1697628105392</edate>
+		<edate>1698334069031</edate>
 		<id>93</id>
 		<nme>Борда новостей R</nme>
 		<pri>100</pri>
@@ -10430,25 +10380,16 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 	</Task>
 	<Task sr="task94">
-		<cdate>1697534476096</cdate>
-		<edate>1697534476096</edate>
+		<cdate>1695328362083</cdate>
+		<edate>1695328362083</edate>
 		<id>94</id>
-		<pri>102</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Борда новостей R</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
+			<code>104</code>
+			<Str sr="arg0" ve="3">https://kurl.ru/QZKVf</Str>
+			<App sr="arg1"/>
+			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task95">
@@ -10479,7 +10420,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task97">
 		<cdate>1695301644424</cdate>
-		<edate>1698221107814</edate>
+		<edate>1698357335560</edate>
 		<id>97</id>
 		<nme>OTA Download 2.0</nme>
 		<pri>100</pri>
