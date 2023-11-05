@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://t.me/hackstoreapk">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github.com/neiruscd/QManager/assets/145120697/93d7f50a-e831-4744-aa51-5fca60188954">
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-production-user-asset-6210df.s3.amazonaws.com/145120697/280552312-88782329-48c3-4394-8382-8cfbe7da7d3f.jpg">
           <img src="[[[https://raw.githubusercontent.com/neiruscd/QManager/main/20231013_112609.png]([https://github.com/neiruscd/QManager/assets/145120697/93d7f50a-e831-4744-aa51-5fca60188954]([https://github.com/neiruscd/QManager/assets/145120697/93d7f50a-e831-4744-aa51-5fca60188954](https://github.com/neiruscd/QManager/assets/145120697/93d7f50a-e831-4744-aa51-5fca60188954)))]([[https://github.com/neiruscd/QManager/assets/145120697/a38606bd-4f2d-4cb3-845d-ac9a7a78c49d](https://github.com/neiruscd/QManager/assets/145120697/93d7f50a-e831-4744-aa51-5fca60188954)]([https://github.com/neiruscd/QManager/assets/145120697/a38606bd-4f2d-4cb3-845d-ac9a7a78c49d](https://github.com/neiruscd/QManager/assets/145120697/a38606bd-4f2d-4cb3-845d-ac9a7a78c49d)))]([https://github-production-user-asset-6210df.s3.amazonaws.com/145120697/276762879-06217b9c-6837-42e8-9461-0cea9c2588f6.png](https://github-production-user-asset-6210df.s3.amazonaws.com/145120697/276869814-fe935bf4-45f4-4b7c-9a85-9b570fa86f97.png))">
         </picture>
     </a>
