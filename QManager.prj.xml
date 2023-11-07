@@ -1,10 +1,10 @@
 <TaskerData sr="" dvi="1" tv="6.2.12-rc">
-	<dmetric>2268.0,1014.0</dmetric>
+	<dmetric>1080.0,2202.0</dmetric>
 	<Project sr="proj0" ve="2">
 		<cdate>1695297877566</cdate>
 		<name>QManager</name>
-		<scenes>Лаборатория Функций,Музыка,Загрузка,Кино,Банки,Категории 6.0,WebApp,Лаборатория Функций beta,Источники,Мессенджеры,Новая версия!,Карты,Категории 5.0,Туториалы,Развлечения 2,О приложении,Mir Pay Fix,Маркеты,Утилиты,Список изменений,Список изменений Pre,Debug Menu,VPN,Развлечения,Статья</scenes>
-		<tids>45,82,30,41,34,97,117,16,10,40,125,6,73,140,13,89,39,123,83,150,116,60,127,44,80,81,87,37,84,59,61,91,53,92,98,90,114,23,5,96,66,75,72,94,78,159,144,131,130,124,74,48,76,129,7,112,31,51,35,36,86,32,103,67,139,95,110,141,64,137,109,88,122,128,57,133,101,43,46,54,151,119,42,69,55,2,62,145,108,50,126,4,47,77,148,56,102,68,52,146,149,104,85,138,28,49,99,120,63,115,135,65,147,142,118,33,79,38,143,3,111,58,134,132,93,157,136,9,100</tids>
+		<scenes>О приложении,Лаборатория Функций,Категории 5.0,Список изменений Pre,VPN,Утилиты,Загрузка,Лаборатория Функций beta,Маркеты,Debug Menu,WebApp,Новая версия!,Мессенджеры,Карты,Банки,Кино,Туториалы,Список изменений,Источники,Музыка,Mir Pay Fix,Развлечения 2,Развлечения,Категории 6.0,Статья</scenes>
+		<tids>42,54,23,48,147,78,32,58,6,81,112,108,148,50,59,57,97,104,87,55,128,99,7,66,52,4,13,72,49,67,131,37,133,69,83,47,86,126,145,159,60,98,119,140,103,109,89,122,114,129,115,80,82,51,111,28,75,34,138,30,65,31,79,46,116,40,102,16,127,41,44,149,101,35,53,95,84,39,68,125,91,45,61,10,38,77,94,96,110,73,136,92,93,88,74,63,33,130,64,150,5,117,90,123,124,56,146,3,144,36,143,62,85,134,43,141,120,135,132,9,76,139,137,151,118,142,157,2,100</tids>
 		<Kid sr="Kid">
 			<launchID>2</launchID>
 			<pkg>qmanager.neiru.com</pkg>
@@ -2930,7 +2930,7 @@
 	</Scene>
 	<Scene sr="sceneМаркеты">
 		<cdate>1695297890544</cdate>
-		<edate>1699093625327</edate>
+		<edate>1699267992876</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2201</heightPort>
 		<nme>Маркеты</nme>
@@ -2963,7 +2963,7 @@
 		</RectElement>
 		<TextElement sr="elements2" ve="3">
 			<flags>4</flags>
-			<geom>77,325,549,100,-1,-1,-1,-1</geom>
+			<geom>102,325,524,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text5</Str>
 			<Str sr="arg1" ve="3">Уебот</Str>
 			<Int sr="arg2" val="18"/>
@@ -2976,7 +2976,7 @@
 		</TextElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>77,400,949,75,-1,-1,-1,-1</geom>
+			<geom>102,400,924,75,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text52</Str>
 			<Str sr="arg1" ve="3">Бот братишкина, можно оплатить подписки и т.д</Str>
 			<Int sr="arg2" val="11"/>
@@ -3028,7 +3028,7 @@
 		<TextElement sr="elements7" ve="3">
 			<clickTask>68</clickTask>
 			<flags>4</flags>
-			<geom>77,500,249,100,-1,-1,-1,-1</geom>
+			<geom>102,500,249,100,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Text42</Str>
 			<Str sr="arg1" ve="3">Перейти</Str>
 			<Int sr="arg2" val="12"/>
@@ -6200,23 +6200,30 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task114">
 		<cdate>1698961496613</cdate>
-		<edate>1699097061522</edate>
+		<edate>1699267227654</edate>
 		<id>114</id>
 		<nme>applistupd-развлечения</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">Развлечения</Str>
-			<Int sr="arg1" val="7"/>
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="14"/>
+			<Int sr="arg9" val="100"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>335</code>
@@ -6277,6 +6284,123 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="99"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
+			<Str sr="arg1" ve="3">5</Str>
+			<Str sr="arg2" ve="3">%capcutappver</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="100"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="14"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Развлечения</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Развлечения</Str>
+			<Str sr="arg1" ve="3">Revanced ver</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">latest version %ytappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Развлечения</Str>
+			<Str sr="arg1" ve="3">Microg ver1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">latest MicroG version %microgappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>47</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Развлечения</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
 			<code>51</code>
 			<label>YT Установлен</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6292,7 +6416,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act19" ve="7">
 			<code>51</code>
 			<label>YT Обновить</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6314,7 +6438,28 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act2" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>51</code>
 			<label>TikTok Установлен</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6330,7 +6475,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act21" ve="7">
 			<code>51</code>
 			<label>TikTok обновить</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6352,7 +6497,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act22" ve="7">
 			<code>51</code>
 			<label>MicroG установлен</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6368,7 +6513,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act23" ve="7">
 			<code>51</code>
 			<label>MicroG обновить</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6390,7 +6535,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act24" ve="7">
 			<code>51</code>
 			<label>Plugin установлен</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6406,7 +6551,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act25" ve="7">
 			<code>51</code>
 			<label>Plugin обновить</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6428,7 +6573,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act26" ve="7">
 			<code>51</code>
 			<label>CapCut установлен</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6444,7 +6589,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act27" ve="7">
 			<code>51</code>
 			<label>CapCut обновить</label>
 			<Str sr="arg0" ve="3">Развлечения</Str>
@@ -6466,14 +6611,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Str sr="arg2" ve="3">%ytappver</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act28" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">applistupd-развлечения</Str>
@@ -6481,63 +6619,93 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 		<Action sr="act3" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg2" ve="3">%ytappver</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="31"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">2</Str>
 			<Str sr="arg2" ve="3">%tiktokappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act6" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="40"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">3</Str>
 			<Str sr="arg2" ve="3">%microgappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="95"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act9" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">4</Str>
 			<Str sr="arg2" ve="3">%pluginappver</Str>
 			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
-			<Str sr="arg1" ve="3">5</Str>
-			<Str sr="arg2" ve="3">%capcutappver</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Развлечения</Str>
-			<Str sr="arg1" ve="3">Revanced ver</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">latest version %ytappver</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Развлечения</Str>
-			<Str sr="arg1" ve="3">Microg ver1</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">latest MicroG version %microgappver</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>47</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Развлечения</Str>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task115">
@@ -7344,7 +7512,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task124">
 		<cdate>1698961496613</cdate>
-		<edate>1699086861329</edate>
+		<edate>1699267159525</edate>
 		<id>124</id>
 		<nme>applistupd-развлечения2</nme>
 		<pri>100</pri>
@@ -7572,23 +7740,30 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 	</Task>
 	<Task sr="task125">
 		<cdate>1698961496613</cdate>
-		<edate>1699085930591</edate>
+		<edate>1699267155354</edate>
 		<id>125</id>
 		<nme>applistupd-утилиты</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">Утилиты</Str>
-			<Int sr="arg1" val="7"/>
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="14"/>
+			<Int sr="arg9" val="100"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>335</code>
@@ -7649,34 +7824,6 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">applistupd-развлечения2</Str>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
-			<Str sr="arg1" ve="3">7</Str>
-			<Str sr="arg2" ve="3">%magiskappver</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
-			<Str sr="arg1" ve="3">8</Str>
-			<Str sr="arg2" ve="3">%mifitappver</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Утилиты</Str>
-			<Str sr="arg1" ve="3">Magisk</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Magisk %magiskappver</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>51</code>
 			<label>Version</label>
 			<Str sr="arg0" ve="3">Утилиты</Str>
@@ -7685,7 +7832,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 			<Str sr="arg3" ve="3">Mi Fintes %mifitappver (France mod) </Str>
 			<Str sr="arg4" ve="3"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act11" ve="7">
 			<code>51</code>
 			<label>Magisk установлен</label>
 			<Str sr="arg0" ve="3">Утилиты</Str>
@@ -7701,7 +7848,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act12" ve="7">
 			<code>51</code>
 			<label>Magisk обновить</label>
 			<Str sr="arg0" ve="3">Утилиты</Str>
@@ -7723,7 +7870,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act13" ve="7">
 			<code>51</code>
 			<label>Mi fit установлен</label>
 			<Str sr="arg0" ve="3">Утилиты</Str>
@@ -7739,7 +7886,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act14" ve="7">
 			<code>51</code>
 			<label>Mi fit обновить</label>
 			<Str sr="arg0" ve="3">Утилиты</Str>
@@ -7760,6 +7907,132 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 					<rhs>com.xiaomi.wearable</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">applistupd-развлечения2</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
+			<Str sr="arg1" ve="3">7</Str>
+			<Str sr="arg2" ve="3">%magiskappver</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="91"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
+			<Str sr="arg1" ve="3">8</Str>
+			<Str sr="arg2" ve="3">%mifitappver</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="100"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="14"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Утилиты</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Утилиты</Str>
+			<Str sr="arg1" ve="3">Magisk</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Magisk %magiskappver</Str>
+			<Str sr="arg4" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task126">
@@ -8158,11 +8431,32 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 	</Task>
 	<Task sr="task129">
 		<cdate>1698961496613</cdate>
-		<edate>1699096886040</edate>
+		<edate>1699231885603</edate>
 		<id>129</id>
 		<nme>applistupd-kino</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="65"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>335</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8220,69 +8514,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
-			<Str sr="arg1" ve="3">10</Str>
-			<Str sr="arg2" ve="3">%kinopubappver</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
-			<Str sr="arg1" ve="3">11</Str>
-			<Str sr="arg2" ve="3">%deeplexappver</Str>
-			<Int sr="arg3" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">Кино</Str>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Кино</Str>
-			<Str sr="arg1" ve="3">kinopubappver</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">latest version %kinopubappver</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Кино</Str>
-			<Str sr="arg1" ve="3">deeplexappver</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">latest version %deeplexappver</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>51</code>
-			<label>KinoPub установлен</label>
-			<Str sr="arg0" ve="3">Кино</Str>
-			<Str sr="arg1" ve="3">KinoPub</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Установлен</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%kinopubappver</lhs>
-					<op>2</op>
-					<rhs>%app_version_label</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act10" ve="7">
 			<code>51</code>
 			<label>KinoPub обновить</label>
 			<Str sr="arg0" ve="3">Кино</Str>
@@ -8304,7 +8536,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act11" ve="7">
 			<code>51</code>
 			<label>Deeplex установлен</label>
 			<Str sr="arg0" ve="3">Кино</Str>
@@ -8320,7 +8552,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act12" ve="7">
 			<code>51</code>
 			<label>Deeplex обновить</label>
 			<Str sr="arg0" ve="3">Кино</Str>
@@ -8339,6 +8571,110 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 					<lhs>%app_version_label(1)</lhs>
 					<op>2</op>
 					<rhs>cc.deeplex.smart</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
+			<Str sr="arg1" ve="3">10</Str>
+			<Str sr="arg2" ve="3">%kinopubappver</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
+			<Str sr="arg1" ve="3">11</Str>
+			<Str sr="arg2" ve="3">%deeplexappver</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="100"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="14"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Кино</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Кино</Str>
+			<Str sr="arg1" ve="3">kinopubappver</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">latest version %kinopubappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Кино</Str>
+			<Str sr="arg1" ve="3">deeplexappver</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">latest version %deeplexappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>51</code>
+			<label>KinoPub установлен</label>
+			<Str sr="arg0" ve="3">Кино</Str>
+			<Str sr="arg1" ve="3">KinoPub</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Установлен</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%kinopubappver</lhs>
+					<op>2</op>
+					<rhs>%app_version_label</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -8508,11 +8844,53 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task131">
 		<cdate>1698961496613</cdate>
-		<edate>1699096527733</edate>
+		<edate>1699267180915</edate>
 		<id>131</id>
 		<nme>applistupd-бак</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="14"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="58"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act10" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Банки</Str>
 			<Int sr="arg1" val="7"/>
@@ -8526,7 +8904,135 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act11" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">АльфаБак</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Альфа Банк %alphaappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">СберБак</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">SberBank %sberappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">Тинькофф</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Tinkoff Bank %tinkoffappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">Убрир Бак</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">УБРиР %ybrirappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>51</code>
+			<label>Альфа установлен</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">Альфа кнопка</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Установлен</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%alphaappver</lhs>
+					<op>2</op>
+					<rhs>%app_version_label(4)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>51</code>
+			<label>Альфа обновить</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">Альфа кнопка</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Обновить</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%alphaappver</lhs>
+					<op>3</op>
+					<rhs>%app_version_label(4)</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%app_package(1)</lhs>
+					<op>0</op>
+					<rhs>ru.alfabank.mobile.android.huawei</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>51</code>
+			<label>Tinkoff установлен</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">Tinkoff кнопка</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Установлен</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tinkoffappver</lhs>
+					<op>2</op>
+					<rhs>%app_version_label(2)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>51</code>
+			<label>Tinkoff обновить</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">Tinkoff кнопка</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Обновить</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%tinkoffappver</lhs>
+					<op>3</op>
+					<rhs>%app_version_label(2)</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%app_package(2)</lhs>
+					<op>0</op>
+					<rhs>com.idamob.tinkoff.android</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>51</code>
+			<label>Убрир установлен</label>
+			<Str sr="arg0" ve="3">Банки</Str>
+			<Str sr="arg1" ve="3">Убрир кнопка</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">Установлен</Str>
+			<Str sr="arg4" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ybrirappver</lhs>
+					<op>2</op>
+					<rhs>%app_version_label(3)</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>335</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -8584,99 +9090,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>51</code>
-			<label>Альфа установлен</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">Альфа кнопка</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Установлен</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%alphaappver</lhs>
-					<op>2</op>
-					<rhs>%app_version_label(4)</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>51</code>
-			<label>Альфа обновить</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">Альфа кнопка</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Обновить</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%alphaappver</lhs>
-					<op>3</op>
-					<rhs>%app_version_label(4)</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%app_package(1)</lhs>
-					<op>0</op>
-					<rhs>ru.alfabank.mobile.android.huawei</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>51</code>
-			<label>Tinkoff установлен</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">Tinkoff кнопка</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Установлен</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%tinkoffappver</lhs>
-					<op>2</op>
-					<rhs>%app_version_label(2)</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>51</code>
-			<label>Tinkoff обновить</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">Tinkoff кнопка</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Обновить</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%tinkoffappver</lhs>
-					<op>3</op>
-					<rhs>%app_version_label(2)</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%app_package(2)</lhs>
-					<op>0</op>
-					<rhs>com.idamob.tinkoff.android</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>51</code>
-			<label>Убрир установлен</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">Убрир кнопка</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Установлен</Str>
-			<Str sr="arg4" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ybrirappver</lhs>
-					<op>2</op>
-					<rhs>%app_version_label(3)</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act20" ve="7">
 			<code>51</code>
 			<label>Убрир обновить</label>
 			<Str sr="arg0" ve="3">Банки</Str>
@@ -8698,7 +9112,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act21" ve="7">
 			<code>51</code>
 			<label>Sber установлен</label>
 			<Str sr="arg0" ve="3">Банки</Str>
@@ -8714,7 +9128,7 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act22" ve="7">
 			<code>51</code>
 			<label>Sber обновить</label>
 			<Str sr="arg0" ve="3">Банки</Str>
@@ -8736,69 +9150,96 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">12</Str>
 			<Str sr="arg2" ve="3">%sberappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">13</Str>
 			<Str sr="arg2" ve="3">%tinkoffappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="84"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">14</Str>
 			<Str sr="arg2" ve="3">%ybrirappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act7" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">15</Str>
 			<Str sr="arg2" ve="3">%alphaappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">АльфаБак</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Альфа Банк %alphaappver</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">СберБак</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">SberBank %sberappver</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
 		<Action sr="act8" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">Тинькофф</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">Tinkoff Bank %tinkoffappver</Str>
-			<Str sr="arg4" ve="3"/>
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="100"/>
+			<Int sr="arg9" val="100"/>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Банки</Str>
-			<Str sr="arg1" ve="3">Убрир Бак</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">УБРиР %ybrirappver</Str>
-			<Str sr="arg4" ve="3"/>
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="14"/>
+			<Int sr="arg9" val="100"/>
 		</Action>
 	</Task>
 	<Task sr="task132">
@@ -9478,7 +9919,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task2">
 		<cdate>1695297951336</cdate>
-		<edate>1699213987276</edate>
+		<edate>1699379764538</edate>
 		<id>2</id>
 		<nme>QManager</nme>
 		<pri>100</pri>
@@ -9488,8 +9929,8 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<pkg>qmanager.neiru.com</pkg>
 			<vMin>23</vMin>
 			<vTarg>29</vTarg>
-			<vnme>6.0</vnme>
-			<vnum>240</vnum>
+			<vnme>6.1</vnme>
+			<vnum>244</vnum>
 		</Kid>
 		<Action sr="act0" ve="7">
 			<code>397</code>
@@ -9651,6 +10092,23 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">OTA Check</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">Борда новостей</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -9666,23 +10124,6 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>47</code>
-			<label>Главная Сцена</label>
-			<on>false</on>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Категории 6.0</Str>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>130</code>
 			<label>Разрешения</label>
 			<Str sr="arg0" ve="3">Разрешения</Str>
@@ -9699,84 +10140,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>335</code>
-			<label>Информация о приложениях</label>
-			<on>false</on>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_apk()
-APK File
-The full path to the APK of the app. You can use the Copy File action to copy it somewhere and rename it if you like.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_uid()
-APK File
-The kernel user-ID that has been assigned to this application; currently this is not a unique ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_activity_classes()
-Activity Classes
-The class names of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%app_activity_enabled()
-Activity Enabled
-For each activity, true if enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%app_activity_exported()
-Activity Exported
-For each activity, true if exported, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%app_activity_labels()
-Activity Labels
-The name of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%app_enabled()
-Enabled
-true if app is enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%app_install_time()
-First Install Time
-Time in seconds since EPOCH that app was first installed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%app_icon()
-Icon
-Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%app_installer_package()
-Installer Package Name
-Package name for the app that installed this app. Can be used to check if app was installed from Google Play.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%app_is_default_launcher()
-Is Default Launcher
-true if the app is the current launcher in use, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%app_is_launcher()
-Is Launcher
-true if the app is a launcher app, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%app_update_time()
-Last Update Time
-Time in seconds since EPOCH that app was last updated&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%app_min_sdk()
-Minimum SDK
-Minimum SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%app_name()
-Name
-Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%app_package()
-Package
-Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%app_version_code()
-Package Version
-The version of the app in code format (a number)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%app_version_label()
-Package Version Label
-The version of the app as you usually see it&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%app_permissions()
-Permissions
-Permissions the app requests.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%app_permissions_granted()
-Permissions Granted
-Corresponds to the %permissions array. true or false depending if the permission has been granted or not.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%app_apk_public_source_dirs()
-Public Source Directories
-Full path to the publicly available parts of splitSourceDirs, including resources and manifest.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%app_target_sdk()
-Target SDK
-Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.topjohnwu.magisk/com.xiaomi.wearable/com.vtosters.lite/com.zhiliaoapp.musically/com.rezvorck.tiktokplugin</Str>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Nightly OTA Check</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act3" ve="7">
 			<code>339</code>
 			<label>Получение информации о ссылках</label>
 			<Bundle sr="arg0">
@@ -9800,15 +10164,141 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg11" val="0"/>
 			<Int sr="arg12" val="1"/>
 			<Str sr="arg2" ve="3">https://raw.githubusercontent.com/neiruscd/QManager/main/listurlapp.txt</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg3" ve="3">%pd_type</Str>
+			<Str sr="arg4" ve="3">%pd_type</Str>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3">QManager/Files/APP/listurlapp.txt</Str>
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
+		<Action sr="act4" ve="7">
+			<code>47</code>
+			<label>Главная Сцена</label>
+			<on>false</on>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Категории 6.0</Str>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>335</code>
+			<label>Информация о приложениях</label>
+			<on>false</on>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_apk()
+APK File
+The full path to the APK of the app. You can use the Copy File action to copy it somewhere and rename it if you like.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_uid()
+APK File
+The kernel user-ID that has been assigned to this application; currently this is not a unique ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_activity_classes()
+Activity Classes
+The class names of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%app_activity_enabled()
+Activity Enabled
+For each activity, true if enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%app_activity_exported()
+Activity Exported
+For each activity, true if exported, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%app_activity_labels()
+Activity Labels
+The name of all the activities that this app has&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%app_enabled()
+Enabled
+true if app is enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%app_install_time()
+First Install Time
+Time in seconds since EPOCH that app was first installed&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%app_installer_package()
+Installer Package Name
+Package name for the app that installed this app. Can be used to check if app was installed from Google Play.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%app_is_default_launcher()
+Is Default Launcher
+true if the app is the current launcher in use, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%app_is_launcher()
+Is Launcher
+true if the app is a launcher app, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%app_update_time()
+Last Update Time
+Time in seconds since EPOCH that app was last updated&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%app_min_sdk()
+Minimum SDK
+Minimum SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%app_package()
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%app_version_code()
+Package Version
+The version of the app in code format (a number)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%app_version_label()
+Package Version Label
+The version of the app as you usually see it&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%app_permissions()
+Permissions
+Permissions the app requests.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%app_permissions_granted()
+Permissions Granted
+Corresponds to the %permissions array. true or false depending if the permission has been granted or not.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%app_apk_public_source_dirs()
+Public Source Directories
+Full path to the publicly available parts of splitSourceDirs, including resources and manifest.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%app_target_sdk()
+Target SDK
+Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%app_icon()
+Иконка
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%app_name()
+Имя
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.topjohnwu.magisk/com.xiaomi.wearable/com.vtosters.lite/com.zhiliaoapp.musically/com.rezvorck.tiktokplugin</Str>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Nightly OTA Check</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
 		<Action sr="act7" ve="7">
+			<code>339</code>
+			<label>Получение информации о ссылках</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
+Cookies
+The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_file_output
+File Output
+Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Response Code
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_headers()
+Response Headers
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_response_length
+Response Length
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Int sr="arg11" val="0"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">https://raw.githubusercontent.com/neiruscd/QManager/main/listurlapp.txt</Str>
+			<Str sr="arg3" ve="3">%pd_type</Str>
+			<Str sr="arg4" ve="3">%pd_type</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">QManager/Files/APP/listurlapp.txt</Str>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>339</code>
 			<label>Зеркала</label>
 			<Bundle sr="arg0">
@@ -9840,7 +10330,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>339</code>
 			<label>Получение информации о версиях</label>
 			<Bundle sr="arg0">
@@ -9870,22 +10360,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">OTA Check</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
@@ -10217,7 +10691,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task33">
 		<cdate>1695300920170</cdate>
-		<edate>1698996595027</edate>
+		<edate>1699231718700</edate>
 		<id>33</id>
 		<nme>OTA Check</nme>
 		<pri>100</pri>
@@ -11040,11 +11514,39 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task40">
 		<cdate>1695584092651</cdate>
-		<edate>1699096931218</edate>
+		<edate>1699267171227</edate>
 		<id>40</id>
 		<nme>Плееры Mirrors</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>415</code>
+			<Str sr="arg0" ve="3">QManager/Files/Mirrors/mirrors.txt</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Str sr="arg2" ve="3">%kinopub</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Кино</Str>
 			<Int sr="arg1" val="7"/>
@@ -11058,14 +11560,34 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>415</code>
-			<Str sr="arg0" ve="3">QManager/Files/Mirrors/mirrors.txt</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Str sr="arg2" ve="3">%kinopub</Str>
-			<Int sr="arg3" val="1"/>
+		<Action sr="act11" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Кино</Str>
+			<Str sr="arg1" ve="3">deeplexappver1</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%latestupdate</Str>
+			<Str sr="arg4" ve="3"/>
 		</Action>
-		<Action sr="act10" ve="7">
+		<Action sr="act12" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Кино</Str>
+			<Str sr="arg1" ve="3">kinopubappver</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">latest version %kinopubappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>51</code>
+			<label>Version</label>
+			<Str sr="arg0" ve="3">Кино</Str>
+			<Str sr="arg1" ve="3">deeplexappver</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">latest version %deeplexappver</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
 			<code>51</code>
 			<label>KinoPub установлен</label>
 			<Str sr="arg0" ve="3">Кино</Str>
@@ -11081,7 +11603,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act15" ve="7">
 			<code>51</code>
 			<label>KinoPub обновить</label>
 			<Str sr="arg0" ve="3">Кино</Str>
@@ -11103,7 +11625,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act16" ve="7">
 			<code>51</code>
 			<label>Deeplex установлен</label>
 			<Str sr="arg0" ve="3">Кино</Str>
@@ -11119,7 +11641,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act17" ve="7">
 			<code>51</code>
 			<label>Deeplex обновить</label>
 			<Str sr="arg0" ve="3">Кино</Str>
@@ -11156,6 +11678,27 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="66"/>
+			<Int sr="arg9" val="100"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>335</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -11213,46 +11756,61 @@ Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">10</Str>
 			<Str sr="arg2" ve="3">%kinopubappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>415</code>
 			<Str sr="arg0" ve="3">QManager/Files/APP/listversionapp.txt</Str>
 			<Str sr="arg1" ve="3">11</Str>
 			<Str sr="arg2" ve="3">%deeplexappver</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Кино</Str>
-			<Str sr="arg1" ve="3">deeplexappver1</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%latestupdate</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
 		<Action sr="act8" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Кино</Str>
-			<Str sr="arg1" ve="3">kinopubappver</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">latest version %kinopubappver</Str>
-			<Str sr="arg4" ve="3"/>
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="100"/>
+			<Int sr="arg9" val="100"/>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>51</code>
-			<label>Version</label>
-			<Str sr="arg0" ve="3">Кино</Str>
-			<Str sr="arg1" ve="3">deeplexappver</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">latest version %deeplexappver</Str>
-			<Str sr="arg4" ve="3"/>
+			<code>391</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%pd_type
+Тип
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Загрузка</Str>
+			<Str sr="arg3" ve="3">Получение информации о версиях..</Str>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_autorenew</Str>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="66"/>
+			<Int sr="arg8" val="100"/>
+			<Int sr="arg9" val="100"/>
 		</Action>
 	</Task>
 	<Task sr="task41">
@@ -12075,7 +12633,7 @@ Target SDK version for the app.&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task82">
 		<cdate>1695370065040</cdate>
-		<edate>1699095312601</edate>
+		<edate>1699231692267</edate>
 		<id>82</id>
 		<nme>Страница обновлений</nme>
 		<pri>100</pri>
